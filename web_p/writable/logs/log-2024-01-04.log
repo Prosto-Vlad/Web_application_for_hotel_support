@@ -1,0 +1,1424 @@
+INFO - 2024-01-04 16:36:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 16:36:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 16:37:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 16:37:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 16:37:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 16:37:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 16:37:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 16:37:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-04 16:37:32 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 139.
+ 1 APPPATH\Models\RoomModel.php(139): pg_escape_string('2')
+ 2 APPPATH\Controllers\roles_controllers\manager\RoomsController.php(66): App\Models\RoomModel->get_one('2')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\RoomsController->load_upd_view('2')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\RoomsController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 16:49:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 16:49:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 16:49:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-04 16:49:27 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 139.
+ 1 APPPATH\Models\RoomModel.php(139): pg_escape_string('1')
+ 2 APPPATH\Controllers\roles_controllers\manager\RoomsController.php(66): App\Models\RoomModel->get_one('1')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\RoomsController->load_upd_view('1')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\RoomsController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 16:49:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 16:49:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 16:49:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 16:50:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-04 16:50:32 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 139.
+ 1 APPPATH\Models\RoomModel.php(139): pg_escape_string('1')
+ 2 APPPATH\Controllers\roles_controllers\manager\RoomsController.php(66): App\Models\RoomModel->get_one('1')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\RoomsController->load_upd_view('1')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\RoomsController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 16:50:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 16:50:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 16:50:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 16:53:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-04 16:53:06 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 139.
+ 1 APPPATH\Models\RoomModel.php(139): pg_escape_string('2')
+ 2 APPPATH\Controllers\roles_controllers\manager\RoomsController.php(66): App\Models\RoomModel->get_one('2')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\RoomsController->load_upd_view('2')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\RoomsController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 16:54:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 16:54:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 16:54:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-04 16:54:16 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 139.
+ 1 APPPATH\Models\RoomModel.php(139): pg_escape_string('2')
+ 2 APPPATH\Controllers\roles_controllers\manager\RoomsController.php(66): App\Models\RoomModel->get_one('2')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\RoomsController->load_upd_view('2')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\RoomsController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 16:54:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 16:54:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 16:56:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-04 16:56:51 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 139.
+ 1 APPPATH\Models\RoomModel.php(139): pg_escape_string('2')
+ 2 APPPATH\Controllers\roles_controllers\manager\RoomsController.php(66): App\Models\RoomModel->get_one('2')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\RoomsController->load_upd_view('2')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\RoomsController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 16:57:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 16:57:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 16:57:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-04 16:57:25 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 139.
+ 1 APPPATH\Models\RoomModel.php(139): pg_escape_string('2')
+ 2 APPPATH\Controllers\roles_controllers\manager\RoomsController.php(66): App\Models\RoomModel->get_one('2')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\RoomsController->load_upd_view('2')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\RoomsController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 16:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 16:57:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 16:57:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 16:57:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 16:57:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 16:57:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 17:00:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 17:00:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 17:00:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 17:01:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 17:01:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 17:01:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 17:01:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 17:01:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 17:01:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 17:01:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 17:02:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 17:02:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-04 17:02:48 --> Call to undefined method App\Models\CustomerModel::search_customer
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\roles_controllers\administrator\CustomersController.php(32): CodeIgniter\Model->__call('search_customer', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\CustomersController->search_customer()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\CustomersController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 17:03:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 17:03:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 17:05:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 17:05:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 17:10:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 17:10:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-04 17:10:36 --> whereNotIn() expects $values to be of type array or closure
+in SYSTEMPATH\Database\BaseBuilder.php on line 939.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(852): CodeIgniter\Database\BaseBuilder->_whereIn('customer.id', 'SELECT "customer_id"
+FROM "settlement"
+WHERE "is_settled" = 1', true, 'AND ', null)
+ 2 APPPATH\Models\CustomerModel.php(32): CodeIgniter\Database\BaseBuilder->whereNotIn('customer.id', 'SELECT "customer_id"
+FROM "settlement"
+WHERE "is_settled" = 1')
+ 3 APPPATH\Controllers\roles_controllers\administrator\CustomersController.php(32): App\Models\CustomerModel->search_customer('', '', '', '')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\CustomersController->search_customer()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\CustomersController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 17:10:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 17:11:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-04 17:11:00 --> whereNotIn() expects $values to be of type array or closure
+in SYSTEMPATH\Database\BaseBuilder.php on line 939.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(852): CodeIgniter\Database\BaseBuilder->_whereIn('customer.id', 'SELECT "customer_id"
+FROM "settlement"
+WHERE "is_settled" = 1', true, 'AND ', null)
+ 2 APPPATH\Models\CustomerModel.php(32): CodeIgniter\Database\BaseBuilder->whereNotIn('customer.id', 'SELECT "customer_id"
+FROM "settlement"
+WHERE "is_settled" = 1')
+ 3 APPPATH\Controllers\roles_controllers\administrator\CustomersController.php(32): App\Models\CustomerModel->search_customer('', '', '', '')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\CustomersController->search_customer()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\CustomersController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 17:12:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 17:12:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-04 17:12:02 --> ErrorException: pg_query(): Query failed: ПОМИЛКА:  оператор не існує: boolean = integer
+LINE 3: WHERE &quot;is_settled&quot; = 1
+                           ^
+HINT:  Жодний оператор не відповідає даному імені та типу аргументу. Вам, можливо, треба додати явні приведення типів. in D:\curs_server\web_p\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\curs_server\\...', 187)
+#1 D:\curs_server\web_p\system\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'SELECT "custome...')
+#2 D:\curs_server\web_p\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT "custome...')
+#3 D:\curs_server\web_p\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "custome...')
+#4 D:\curs_server\web_p\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT "custome...', Array, false)
+#5 D:\curs_server\web_p\app\Models\CustomerModel.php(26): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\curs_server\web_p\app\Controllers\roles_controllers\administrator\CustomersController.php(32): App\Models\CustomerModel->search_customer('', '', '', '')
+#7 D:\curs_server\web_p\system\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\CustomersController->search_customer()
+#8 D:\curs_server\web_p\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\CustomersController))
+#9 D:\curs_server\web_p\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\curs_server\web_p\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-01-04 17:12:02 --> pg_query(): Query failed: ПОМИЛКА:  оператор не існує: boolean = integer
+LINE 3: WHERE &quot;is_settled&quot; = 1
+                           ^
+HINT:  Жодний оператор не відповідає даному імені та типу аргументу. Вам, можливо, треба додати явні приведення типів.
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT "customer_id"
+FROM "settlement"
+WHERE "is_settled" = :is_settled:', [...], false)
+ 2 APPPATH\Models\CustomerModel.php(26): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\roles_controllers\administrator\CustomersController.php(32): App\Models\CustomerModel->search_customer('', '', '', '')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\CustomersController->search_customer()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\CustomersController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 17:12:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 17:12:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 17:13:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 17:13:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 17:18:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 17:18:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 17:23:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 17:23:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-04 17:23:32 --> ErrorException: pg_query(): Query failed: ПОМИЛКА:  стовпець &quot;room.number&quot; повинен з'являтися у реченні Група BY або використовуватися в агрегатній функції
+LINE 1: SELECT &quot;customer&quot;.*, &quot;room&quot;.&quot;number&quot;, &quot;settlement&quot;.&quot;is_settl...
+                             ^ in D:\curs_server\web_p\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\curs_server\\...', 187)
+#1 D:\curs_server\web_p\system\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'SELECT "custome...')
+#2 D:\curs_server\web_p\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT "custome...')
+#3 D:\curs_server\web_p\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "custome...')
+#4 D:\curs_server\web_p\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT "custome...', Array, false)
+#5 D:\curs_server\web_p\app\Models\CustomerModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\curs_server\web_p\app\Controllers\roles_controllers\administrator\CustomersController.php(32): App\Models\CustomerModel->search_customer('', '', '', '')
+#7 D:\curs_server\web_p\system\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\CustomersController->search_customer()
+#8 D:\curs_server\web_p\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\CustomersController))
+#9 D:\curs_server\web_p\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\curs_server\web_p\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-01-04 17:23:32 --> pg_query(): Query failed: ПОМИЛКА:  стовпець &quot;room.number&quot; повинен з'являтися у реченні Група BY або використовуватися в агрегатній функції
+LINE 1: SELECT &quot;customer&quot;.*, &quot;room&quot;.&quot;number&quot;, &quot;settlement&quot;.&quot;is_settl...
+                             ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT "customer".*, "room"."number", "settlement"."is_settled"
+FROM "customer"
+LEFT JOIN "settlement" ON "customer"."id" = "settlement"."customer_id"
+LEFT JOIN "room" ON "settlement"."room_id" = "room"."id"
+WHERE "customer"."id" IN :customer.id:
+GROUP BY "customer"."id"', [...], false)
+ 2 APPPATH\Models\CustomerModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\roles_controllers\administrator\CustomersController.php(32): App\Models\CustomerModel->search_customer('', '', '', '')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\CustomersController->search_customer()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\CustomersController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 17:24:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 17:24:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 17:24:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 17:24:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-04 17:24:50 --> ErrorException: pg_query(): Query failed: ПОМИЛКА:  стовпець &quot;room.number&quot; повинен з'являтися у реченні Група BY або використовуватися в агрегатній функції
+LINE 1: SELECT &quot;customer&quot;.*, &quot;room&quot;.&quot;number&quot;, &quot;settlement&quot;.&quot;is_settl...
+                             ^ in D:\curs_server\web_p\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\curs_server\\...', 187)
+#1 D:\curs_server\web_p\system\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'SELECT "custome...')
+#2 D:\curs_server\web_p\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT "custome...')
+#3 D:\curs_server\web_p\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "custome...')
+#4 D:\curs_server\web_p\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT "custome...', Array, false)
+#5 D:\curs_server\web_p\app\Models\CustomerModel.php(38): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\curs_server\web_p\app\Controllers\roles_controllers\administrator\CustomersController.php(32): App\Models\CustomerModel->search_customer('', '', '', '')
+#7 D:\curs_server\web_p\system\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\CustomersController->search_customer()
+#8 D:\curs_server\web_p\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\CustomersController))
+#9 D:\curs_server\web_p\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\curs_server\web_p\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-01-04 17:24:50 --> pg_query(): Query failed: ПОМИЛКА:  стовпець &quot;room.number&quot; повинен з'являтися у реченні Група BY або використовуватися в агрегатній функції
+LINE 1: SELECT &quot;customer&quot;.*, &quot;room&quot;.&quot;number&quot;, &quot;settlement&quot;.&quot;is_settl...
+                             ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT "customer".*, "room"."number", "settlement"."is_settled"
+FROM "customer"
+LEFT JOIN "settlement" ON "customer"."id" = "settlement"."customer_id"
+LEFT JOIN "room" ON "settlement"."room_id" = "room"."id"
+WHERE "customer"."id" IN :customer.id:
+GROUP BY "customer"."id"', [...], false)
+ 2 APPPATH\Models\CustomerModel.php(38): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\roles_controllers\administrator\CustomersController.php(32): App\Models\CustomerModel->search_customer('', '', '', '')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\CustomersController->search_customer()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\CustomersController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 17:25:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 17:25:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 17:27:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 17:27:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 17:33:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 17:33:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 17:33:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 17:33:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-04 17:33:43 --> ErrorException: pg_query(): Query failed: ПОМИЛКА:  таблиця &quot;room&quot; відсутня в реченні FROM
+LINE 1: SELECT &quot;customer&quot;.*, &quot;room&quot;.&quot;number&quot;, &quot;settlement&quot;.&quot;is_settl...
+                             ^ in D:\curs_server\web_p\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\curs_server\\...', 187)
+#1 D:\curs_server\web_p\system\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'SELECT "custome...')
+#2 D:\curs_server\web_p\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT "custome...')
+#3 D:\curs_server\web_p\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "custome...')
+#4 D:\curs_server\web_p\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT "custome...', Array, false)
+#5 D:\curs_server\web_p\app\Models\CustomerModel.php(41): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\curs_server\web_p\app\Controllers\roles_controllers\administrator\CustomersController.php(32): App\Models\CustomerModel->search_customer('', '', '', '')
+#7 D:\curs_server\web_p\system\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\CustomersController->search_customer()
+#8 D:\curs_server\web_p\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\CustomersController))
+#9 D:\curs_server\web_p\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\curs_server\web_p\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-01-04 17:33:43 --> pg_query(): Query failed: ПОМИЛКА:  таблиця &quot;room&quot; відсутня в реченні FROM
+LINE 1: SELECT &quot;customer&quot;.*, &quot;room&quot;.&quot;number&quot;, &quot;settlement&quot;.&quot;is_settl...
+                             ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT "customer".*, "room"."number", "settlement"."is_settled"
+FROM "customer"', [], false)
+ 2 APPPATH\Models\CustomerModel.php(41): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\roles_controllers\administrator\CustomersController.php(32): App\Models\CustomerModel->search_customer('', '', '', '')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\CustomersController->search_customer()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\CustomersController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 17:33:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 17:33:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 17:35:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 17:35:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 17:36:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 17:36:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 17:37:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 17:37:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 17:53:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 17:53:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 17:57:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 17:57:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 17:57:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 17:57:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 18:07:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 18:07:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-04 18:07:26 --> ErrorException: pg_query(): Query failed: ПОМИЛКА:  синтаксична помилка в або поблизу &quot;.&quot;
+LINE 1: ...nt&quot;.&quot;customer_id&quot;, &quot;settlement&quot;.&quot;is_settled&quot; &quot;room&quot;.&quot;number&quot;
+                                                              ^ in D:\curs_server\web_p\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\curs_server\\...', 187)
+#1 D:\curs_server\web_p\system\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'SELECT "settlem...')
+#2 D:\curs_server\web_p\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT "settlem...')
+#3 D:\curs_server\web_p\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "settlem...')
+#4 D:\curs_server\web_p\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT "settlem...', Array, false)
+#5 D:\curs_server\web_p\app\Models\CustomerModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\curs_server\web_p\app\Controllers\roles_controllers\administrator\CustomersController.php(32): App\Models\CustomerModel->search_customer('', '', '', '')
+#7 D:\curs_server\web_p\system\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\CustomersController->search_customer()
+#8 D:\curs_server\web_p\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\CustomersController))
+#9 D:\curs_server\web_p\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\curs_server\web_p\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-01-04 18:07:26 --> pg_query(): Query failed: ПОМИЛКА:  синтаксична помилка в або поблизу &quot;.&quot;
+LINE 1: ...nt&quot;.&quot;customer_id&quot;, &quot;settlement&quot;.&quot;is_settled&quot; &quot;room&quot;.&quot;number&quot;
+                                                              ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT "settlement"."customer_id", "settlement"."is_settled" "room"."number"
+FROM "settlement"
+JOIN "room" ON "room"."id" = "settlement"."room_id"
+WHERE "settlement"."is_settled" = :settlement.is_settled:', [...], false)
+ 2 APPPATH\Models\CustomerModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\roles_controllers\administrator\CustomersController.php(32): App\Models\CustomerModel->search_customer('', '', '', '')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\CustomersController->search_customer()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\CustomersController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 18:07:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 18:07:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-04 18:07:34 --> ErrorException: pg_query(): Query failed: ПОМИЛКА:  синтаксична помилка в або поблизу &quot;.&quot;
+LINE 1: ...nt&quot;.&quot;customer_id&quot;, &quot;settlement&quot;.&quot;is_settled&quot; &quot;room&quot;.&quot;number&quot;
+                                                              ^ in D:\curs_server\web_p\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\curs_server\\...', 187)
+#1 D:\curs_server\web_p\system\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'SELECT "settlem...')
+#2 D:\curs_server\web_p\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT "settlem...')
+#3 D:\curs_server\web_p\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "settlem...')
+#4 D:\curs_server\web_p\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT "settlem...', Array, false)
+#5 D:\curs_server\web_p\app\Models\CustomerModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\curs_server\web_p\app\Controllers\roles_controllers\administrator\CustomersController.php(32): App\Models\CustomerModel->search_customer('', '', '', '')
+#7 D:\curs_server\web_p\system\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\CustomersController->search_customer()
+#8 D:\curs_server\web_p\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\CustomersController))
+#9 D:\curs_server\web_p\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\curs_server\web_p\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-01-04 18:07:34 --> pg_query(): Query failed: ПОМИЛКА:  синтаксична помилка в або поблизу &quot;.&quot;
+LINE 1: ...nt&quot;.&quot;customer_id&quot;, &quot;settlement&quot;.&quot;is_settled&quot; &quot;room&quot;.&quot;number&quot;
+                                                              ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT "settlement"."customer_id", "settlement"."is_settled" "room"."number"
+FROM "settlement"
+JOIN "room" ON "room"."id" = "settlement"."room_id"
+WHERE "settlement"."is_settled" = :settlement.is_settled:', [...], false)
+ 2 APPPATH\Models\CustomerModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\roles_controllers\administrator\CustomersController.php(32): App\Models\CustomerModel->search_customer('', '', '', '')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\CustomersController->search_customer()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\CustomersController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 18:07:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 18:07:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 18:09:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 18:09:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 18:09:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 18:09:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 18:10:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 18:10:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 18:10:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 18:10:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 18:11:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 18:11:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 18:11:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 18:11:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 18:12:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 18:12:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 18:12:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-04 18:12:17 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\UserModel.php on line 41.
+ 1 APPPATH\Models\UserModel.php(41): pg_escape_string('3')
+ 2 APPPATH\Controllers\roles_controllers\administrator\OrderCreateController.php(26): App\Models\UserModel->search_worker('', '', '', '', 3)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\OrderCreateController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\OrderCreateController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 18:14:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-04 18:14:42 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\UserModel.php on line 41.
+ 1 APPPATH\Models\UserModel.php(41): pg_escape_string('3')
+ 2 APPPATH\Controllers\roles_controllers\administrator\OrderCreateController.php(26): App\Models\UserModel->search_worker('', '', '', '', 3)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\OrderCreateController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\OrderCreateController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 18:21:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-04 18:21:00 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\UserModel.php on line 41.
+ 1 APPPATH\Models\UserModel.php(41): pg_escape_string('3')
+ 2 APPPATH\Controllers\roles_controllers\administrator\OrderCreateController.php(27): App\Models\UserModel->search_worker('', '', '', '', 3)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\OrderCreateController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\OrderCreateController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 18:25:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-04 18:25:46 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\UserModel.php on line 41.
+ 1 APPPATH\Models\UserModel.php(41): pg_escape_string('3')
+ 2 APPPATH\Controllers\roles_controllers\administrator\OrderCreateController.php(27): App\Models\UserModel->search_worker('', '', '', '', 3)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\OrderCreateController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\OrderCreateController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 18:26:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-04 18:26:19 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\UserModel.php on line 41.
+ 1 APPPATH\Models\UserModel.php(41): pg_escape_string('3')
+ 2 APPPATH\Controllers\roles_controllers\administrator\OrderCreateController.php(27): App\Models\UserModel->search_worker('', '', '', '', 3)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\OrderCreateController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\OrderCreateController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 18:28:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-04 18:28:14 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\UserModel.php on line 41.
+ 1 APPPATH\Models\UserModel.php(41): pg_escape_string('3')
+ 2 APPPATH\Controllers\roles_controllers\administrator\OrderCreateController.php(27): App\Models\UserModel->search_worker('', '', '', '', 3)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\OrderCreateController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\OrderCreateController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 18:34:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-04 18:34:15 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\UserModel.php on line 41.
+ 1 APPPATH\Models\UserModel.php(41): pg_escape_string('3')
+ 2 APPPATH\Controllers\roles_controllers\administrator\OrderCreateController.php(27): App\Models\UserModel->search_worker('', '', '', '', 3)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\OrderCreateController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\OrderCreateController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 18:34:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-04 18:34:58 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\UserModel.php on line 41.
+ 1 APPPATH\Models\UserModel.php(41): pg_escape_string('3')
+ 2 APPPATH\Controllers\roles_controllers\administrator\OrderCreateController.php(27): App\Models\UserModel->search_worker('', '', '', '', 3)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\OrderCreateController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\OrderCreateController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 18:35:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-04 18:35:52 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\UserModel.php on line 41.
+ 1 APPPATH\Models\UserModel.php(41): pg_escape_string('3')
+ 2 APPPATH\Controllers\roles_controllers\administrator\OrderCreateController.php(27): App\Models\UserModel->search_worker('', '', '', '', 3)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\OrderCreateController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\OrderCreateController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 18:36:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 18:36:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 18:36:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 18:36:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 18:36:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 18:36:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 18:36:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 18:36:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 18:36:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 18:37:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 18:37:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-04 18:37:16 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 37.
+ 1 APPPATH\Models\RoomModel.php(37): pg_escape_string('2024-01-08')
+ 2 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(42): App\Models\RoomModel->searchRooms('', '0', '', '', '', '2024-01-08', '2024-01-14', 'free')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->search_room()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-04 18:37:16 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 39.
+ 1 APPPATH\Models\RoomModel.php(39): pg_escape_string('2024-01-14')
+ 2 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(42): App\Models\RoomModel->searchRooms('', '0', '', '', '', '2024-01-08', '2024-01-14', 'free')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->search_room()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 18:37:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-04 18:37:17 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 37.
+ 1 APPPATH\Models\RoomModel.php(37): pg_escape_string('2024-01-08')
+ 2 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(42): App\Models\RoomModel->searchRooms('', '0', '', '', '', '2024-01-08', '2024-01-14', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->search_room()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-04 18:37:17 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 39.
+ 1 APPPATH\Models\RoomModel.php(39): pg_escape_string('2024-01-14')
+ 2 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(42): App\Models\RoomModel->searchRooms('', '0', '', '', '', '2024-01-08', '2024-01-14', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->search_room()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 18:37:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-04 18:37:27 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 37.
+ 1 APPPATH\Models\RoomModel.php(37): pg_escape_string('2024-01-08')
+ 2 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(42): App\Models\RoomModel->searchRooms('', '0', '', '', '', '2024-01-08', '2024-01-14', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->search_room()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-04 18:37:27 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 39.
+ 1 APPPATH\Models\RoomModel.php(39): pg_escape_string('2024-01-14')
+ 2 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(42): App\Models\RoomModel->searchRooms('', '0', '', '', '', '2024-01-08', '2024-01-14', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->search_room()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 18:37:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-04 18:37:27 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 37.
+ 1 APPPATH\Models\RoomModel.php(37): pg_escape_string('2024-01-08')
+ 2 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(42): App\Models\RoomModel->searchRooms('', '0', '', '', '', '2024-01-08', '2024-01-14', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->search_room()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-04 18:37:27 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 39.
+ 1 APPPATH\Models\RoomModel.php(39): pg_escape_string('2024-01-14')
+ 2 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(42): App\Models\RoomModel->searchRooms('', '0', '', '', '', '2024-01-08', '2024-01-14', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->search_room()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 18:37:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-04 18:37:27 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 37.
+ 1 APPPATH\Models\RoomModel.php(37): pg_escape_string('2024-01-08')
+ 2 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(42): App\Models\RoomModel->searchRooms('', '0', '', '', '', '2024-01-08', '2024-01-14', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->search_room()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-04 18:37:27 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 39.
+ 1 APPPATH\Models\RoomModel.php(39): pg_escape_string('2024-01-14')
+ 2 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(42): App\Models\RoomModel->searchRooms('', '0', '', '', '', '2024-01-08', '2024-01-14', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->search_room()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 18:37:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-04 18:37:27 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 37.
+ 1 APPPATH\Models\RoomModel.php(37): pg_escape_string('2024-01-08')
+ 2 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(42): App\Models\RoomModel->searchRooms('', '0', '', '', '', '2024-01-08', '2024-01-14', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->search_room()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-04 18:37:27 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 39.
+ 1 APPPATH\Models\RoomModel.php(39): pg_escape_string('2024-01-14')
+ 2 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(42): App\Models\RoomModel->searchRooms('', '0', '', '', '', '2024-01-08', '2024-01-14', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->search_room()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 18:37:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-04 18:37:31 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 37.
+ 1 APPPATH\Models\RoomModel.php(37): pg_escape_string('2024-01-01')
+ 2 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(42): App\Models\RoomModel->searchRooms('', '0', '', '', '', '2024-01-01', '2024-01-07', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->search_room()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-04 18:37:31 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 39.
+ 1 APPPATH\Models\RoomModel.php(39): pg_escape_string('2024-01-07')
+ 2 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(42): App\Models\RoomModel->searchRooms('', '0', '', '', '', '2024-01-01', '2024-01-07', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->search_room()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 18:37:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 18:37:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 18:37:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 18:37:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-04 18:37:59 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 78.
+ 1 APPPATH\Models\RoomModel.php(78): pg_escape_string('2024-01-07')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(3505): App\Models\RoomModel->App\Models\{closure}(Object(CodeIgniter\Database\Postgre\Builder))
+ 3 SYSTEMPATH\Database\BaseBuilder.php(955): CodeIgniter\Database\BaseBuilder->buildSubquery(Object(CodeIgniter\Database\Postgre\Builder), true)
+ 4 SYSTEMPATH\Database\BaseBuilder.php(852): CodeIgniter\Database\BaseBuilder->_whereIn('"room"."id"', Object(Closure), ' NOT', 'AND ', true)
+ 5 APPPATH\Models\RoomModel.php(75): CodeIgniter\Database\BaseBuilder->whereNotIn('room.id', Object(Closure))
+ 6 APPPATH\Controllers\roles_controllers\administrator\RoomsRegisterController.php(72): App\Models\RoomModel->searchFreeRoom('0', '', '', '', '2024-01-01', '2024-01-07')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsRegisterController->search_room()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsRegisterController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-04 18:37:59 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 79.
+ 1 APPPATH\Models\RoomModel.php(79): pg_escape_string('2024-01-01')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(3505): App\Models\RoomModel->App\Models\{closure}(Object(CodeIgniter\Database\Postgre\Builder))
+ 3 SYSTEMPATH\Database\BaseBuilder.php(955): CodeIgniter\Database\BaseBuilder->buildSubquery(Object(CodeIgniter\Database\Postgre\Builder), true)
+ 4 SYSTEMPATH\Database\BaseBuilder.php(852): CodeIgniter\Database\BaseBuilder->_whereIn('"room"."id"', Object(Closure), ' NOT', 'AND ', true)
+ 5 APPPATH\Models\RoomModel.php(75): CodeIgniter\Database\BaseBuilder->whereNotIn('room.id', Object(Closure))
+ 6 APPPATH\Controllers\roles_controllers\administrator\RoomsRegisterController.php(72): App\Models\RoomModel->searchFreeRoom('0', '', '', '', '2024-01-01', '2024-01-07')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsRegisterController->search_room()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsRegisterController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 18:38:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-04 18:38:08 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 33.
+ 1 APPPATH\Models\CustomerModel.php(33): pg_escape_string('0')
+ 2 APPPATH\Controllers\roles_controllers\administrator\RoomsRegisterController.php(62): App\Models\CustomerModel->search_customer('', '', '', '0')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsRegisterController->phone_search()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsRegisterController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 18:38:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 19:35:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 19:35:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 19:35:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 19:35:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 19:35:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-04 19:35:46 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\UserModel.php on line 41.
+ 1 APPPATH\Models\UserModel.php(41): pg_escape_string('3')
+ 2 APPPATH\Controllers\roles_controllers\administrator\OrderCreateController.php(27): App\Models\UserModel->search_worker('', '', '', '', 3)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\OrderCreateController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\OrderCreateController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 19:35:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 19:35:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 19:37:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-04 19:37:29 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\UserModel.php on line 41.
+ 1 APPPATH\Models\UserModel.php(41): pg_escape_string('3')
+ 2 APPPATH\Controllers\roles_controllers\administrator\OrderCreateController.php(27): App\Models\UserModel->search_worker('', '', '', '', 3)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\OrderCreateController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\OrderCreateController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 19:37:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 19:37:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 19:37:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-04 19:37:58 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\UserModel.php on line 41.
+ 1 APPPATH\Models\UserModel.php(41): pg_escape_string('3')
+ 2 APPPATH\Controllers\roles_controllers\administrator\OrderCreateController.php(27): App\Models\UserModel->search_worker('', '', '', '', 3)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\OrderCreateController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\OrderCreateController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 19:38:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 19:38:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 19:39:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 19:41:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-04 19:41:59 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\UserModel.php on line 41.
+ 1 APPPATH\Models\UserModel.php(41): pg_escape_string('3')
+ 2 APPPATH\Controllers\roles_controllers\administrator\OrderCreateController.php(27): App\Models\UserModel->search_worker('', '', '', '', 3)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\OrderCreateController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\OrderCreateController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 19:42:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 19:42:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 19:43:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 19:43:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 19:43:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-04 19:43:38 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\UserModel.php on line 41.
+ 1 APPPATH\Models\UserModel.php(41): pg_escape_string('3')
+ 2 APPPATH\Controllers\roles_controllers\administrator\OrderCreateController.php(27): App\Models\UserModel->search_worker('', '', '', '', 3)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\OrderCreateController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\OrderCreateController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 19:45:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-04 19:45:21 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\UserModel.php on line 41.
+ 1 APPPATH\Models\UserModel.php(41): pg_escape_string('3')
+ 2 APPPATH\Controllers\roles_controllers\administrator\OrderCreateController.php(27): App\Models\UserModel->search_worker('', '', '', '', 3)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\OrderCreateController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\OrderCreateController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 19:45:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-04 19:45:35 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\UserModel.php on line 41.
+ 1 APPPATH\Models\UserModel.php(41): pg_escape_string('3')
+ 2 APPPATH\Controllers\roles_controllers\administrator\OrderCreateController.php(27): App\Models\UserModel->search_worker('', '', '', '', 3)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\OrderCreateController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\OrderCreateController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 19:45:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-04 19:45:39 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\UserModel.php on line 41.
+ 1 APPPATH\Models\UserModel.php(41): pg_escape_string('3')
+ 2 APPPATH\Controllers\roles_controllers\administrator\OrderCreateController.php(27): App\Models\UserModel->search_worker('', '', '', '', 3)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\OrderCreateController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\OrderCreateController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 19:45:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 19:45:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 19:46:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 19:46:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 19:49:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-04 19:49:58 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\UserModel.php on line 41.
+ 1 APPPATH\Models\UserModel.php(41): pg_escape_string('3')
+ 2 APPPATH\Controllers\roles_controllers\administrator\OrderCreateController.php(27): App\Models\UserModel->search_worker('', '', '', '', 3)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\OrderCreateController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\OrderCreateController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 19:49:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 19:49:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 19:51:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 19:51:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 19:51:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-04 19:51:52 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 29.
+ 1 APPPATH\Models\RoomModel.php(29): pg_escape_string('Економ-клас')
+ 2 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(42): App\Models\RoomModel->searchRooms('', 'Економ-клас', '', '', '', '', '', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->search_room()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 19:51:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-04 19:51:57 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 29.
+ 1 APPPATH\Models\RoomModel.php(29): pg_escape_string('Стандарт')
+ 2 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(42): App\Models\RoomModel->searchRooms('', 'Стандарт', '', '', '', '', '', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->search_room()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 19:52:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-04 19:52:01 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 29.
+ 1 APPPATH\Models\RoomModel.php(29): pg_escape_string('Люкс')
+ 2 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(42): App\Models\RoomModel->searchRooms('', 'Люкс', '', '', '', '', '', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->search_room()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 19:52:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-04 19:52:07 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 31.
+ 1 APPPATH\Models\RoomModel.php(31): pg_escape_string('1')
+ 2 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(42): App\Models\RoomModel->searchRooms('', '0', '', '', '1', '', '', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->search_room()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 19:52:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-04 19:52:12 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 31.
+ 1 APPPATH\Models\RoomModel.php(31): pg_escape_string('3')
+ 2 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(42): App\Models\RoomModel->searchRooms('', '0', '', '', '3', '', '', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->search_room()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 19:52:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-04 19:52:14 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 31.
+ 1 APPPATH\Models\RoomModel.php(31): pg_escape_string('4')
+ 2 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(42): App\Models\RoomModel->searchRooms('', '0', '', '', '4', '', '', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->search_room()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 19:52:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-04 19:52:14 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 31.
+ 1 APPPATH\Models\RoomModel.php(31): pg_escape_string('4')
+ 2 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(42): App\Models\RoomModel->searchRooms('', '0', '', '', '4', '', '', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->search_room()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 19:52:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-04 19:52:16 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 31.
+ 1 APPPATH\Models\RoomModel.php(31): pg_escape_string('3')
+ 2 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(42): App\Models\RoomModel->searchRooms('', '0', '', '', '3', '', '', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->search_room()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 19:52:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 19:52:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-04 19:52:30 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 33.
+ 1 APPPATH\Models\RoomModel.php(33): pg_escape_string('100')
+ 2 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(42): App\Models\RoomModel->searchRooms('', '0', '100', '200', '', '', '', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->search_room()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-04 19:52:30 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 35.
+ 1 APPPATH\Models\RoomModel.php(35): pg_escape_string('200')
+ 2 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(42): App\Models\RoomModel->searchRooms('', '0', '100', '200', '', '', '', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->search_room()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 19:53:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 19:53:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 19:55:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 19:55:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 19:56:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 19:56:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 20:15:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 20:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 20:15:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 20:15:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 20:15:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 20:15:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 20:15:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 20:15:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 20:15:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-04 20:15:43 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 31.
+ 1 APPPATH\Models\CustomerModel.php(31): pg_escape_string('380501234567')
+ 2 APPPATH\Controllers\roles_controllers\administrator\RoomsRegisterController.php(62): App\Models\CustomerModel->search_customer('', '', '', '380501234567')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsRegisterController->phone_search()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsRegisterController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 20:15:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 20:15:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-04 20:15:55 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 78.
+ 1 APPPATH\Models\RoomModel.php(78): pg_escape_string('2024-01-14')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(3505): App\Models\RoomModel->App\Models\{closure}(Object(CodeIgniter\Database\Postgre\Builder))
+ 3 SYSTEMPATH\Database\BaseBuilder.php(955): CodeIgniter\Database\BaseBuilder->buildSubquery(Object(CodeIgniter\Database\Postgre\Builder), true)
+ 4 SYSTEMPATH\Database\BaseBuilder.php(852): CodeIgniter\Database\BaseBuilder->_whereIn('"room"."id"', Object(Closure), ' NOT', 'AND ', true)
+ 5 APPPATH\Models\RoomModel.php(75): CodeIgniter\Database\BaseBuilder->whereNotIn('room.id', Object(Closure))
+ 6 APPPATH\Controllers\roles_controllers\administrator\RoomsRegisterController.php(72): App\Models\RoomModel->searchFreeRoom('0', '', '', '', '2024-01-08', '2024-01-14')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsRegisterController->search_room()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsRegisterController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-04 20:15:55 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 79.
+ 1 APPPATH\Models\RoomModel.php(79): pg_escape_string('2024-01-08')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(3505): App\Models\RoomModel->App\Models\{closure}(Object(CodeIgniter\Database\Postgre\Builder))
+ 3 SYSTEMPATH\Database\BaseBuilder.php(955): CodeIgniter\Database\BaseBuilder->buildSubquery(Object(CodeIgniter\Database\Postgre\Builder), true)
+ 4 SYSTEMPATH\Database\BaseBuilder.php(852): CodeIgniter\Database\BaseBuilder->_whereIn('"room"."id"', Object(Closure), ' NOT', 'AND ', true)
+ 5 APPPATH\Models\RoomModel.php(75): CodeIgniter\Database\BaseBuilder->whereNotIn('room.id', Object(Closure))
+ 6 APPPATH\Controllers\roles_controllers\administrator\RoomsRegisterController.php(72): App\Models\RoomModel->searchFreeRoom('0', '', '', '', '2024-01-08', '2024-01-14')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsRegisterController->search_room()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsRegisterController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 20:16:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-04 20:16:00 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 31.
+ 1 APPPATH\Models\CustomerModel.php(31): pg_escape_string('380501234567')
+ 2 APPPATH\Controllers\roles_controllers\administrator\RoomsRegisterController.php(84): App\Models\CustomerModel->search_customer('', '', '', '380501234567')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsRegisterController->add_settlement()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsRegisterController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-04 20:16:00 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\SettlementModel.php on line 33.
+ 1 APPPATH\Models\SettlementModel.php(33): pg_escape_string('1')
+ 2 APPPATH\Controllers\roles_controllers\administrator\RoomsRegisterController.php(86): App\Models\SettlementModel->addSettlement('1', '45', '2024-01-08', '2024-01-14', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsRegisterController->add_settlement()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsRegisterController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-04 20:16:00 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\SettlementModel.php on line 34.
+ 1 APPPATH\Models\SettlementModel.php(34): pg_escape_string('45')
+ 2 APPPATH\Controllers\roles_controllers\administrator\RoomsRegisterController.php(86): App\Models\SettlementModel->addSettlement('1', '45', '2024-01-08', '2024-01-14', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsRegisterController->add_settlement()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsRegisterController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-04 20:16:00 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\SettlementModel.php on line 35.
+ 1 APPPATH\Models\SettlementModel.php(35): pg_escape_string('2024-01-08')
+ 2 APPPATH\Controllers\roles_controllers\administrator\RoomsRegisterController.php(86): App\Models\SettlementModel->addSettlement('1', '45', '2024-01-08', '2024-01-14', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsRegisterController->add_settlement()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsRegisterController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-04 20:16:00 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\SettlementModel.php on line 36.
+ 1 APPPATH\Models\SettlementModel.php(36): pg_escape_string('2024-01-14')
+ 2 APPPATH\Controllers\roles_controllers\administrator\RoomsRegisterController.php(86): App\Models\SettlementModel->addSettlement('1', '45', '2024-01-08', '2024-01-14', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsRegisterController->add_settlement()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsRegisterController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-04 20:16:00 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\SettlementModel.php on line 37.
+ 1 APPPATH\Models\SettlementModel.php(37): pg_escape_string('')
+ 2 APPPATH\Controllers\roles_controllers\administrator\RoomsRegisterController.php(86): App\Models\SettlementModel->addSettlement('1', '45', '2024-01-08', '2024-01-14', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsRegisterController->add_settlement()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsRegisterController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 20:16:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-04 20:16:00 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 78.
+ 1 APPPATH\Models\RoomModel.php(78): pg_escape_string('2024-01-14')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(3505): App\Models\RoomModel->App\Models\{closure}(Object(CodeIgniter\Database\Postgre\Builder))
+ 3 SYSTEMPATH\Database\BaseBuilder.php(955): CodeIgniter\Database\BaseBuilder->buildSubquery(Object(CodeIgniter\Database\Postgre\Builder), true)
+ 4 SYSTEMPATH\Database\BaseBuilder.php(852): CodeIgniter\Database\BaseBuilder->_whereIn('"room"."id"', Object(Closure), ' NOT', 'AND ', true)
+ 5 APPPATH\Models\RoomModel.php(75): CodeIgniter\Database\BaseBuilder->whereNotIn('room.id', Object(Closure))
+ 6 APPPATH\Controllers\roles_controllers\administrator\RoomsRegisterController.php(72): App\Models\RoomModel->searchFreeRoom('0', '', '', '', '2024-01-08', '2024-01-14')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsRegisterController->search_room()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsRegisterController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-04 20:16:00 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 79.
+ 1 APPPATH\Models\RoomModel.php(79): pg_escape_string('2024-01-08')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(3505): App\Models\RoomModel->App\Models\{closure}(Object(CodeIgniter\Database\Postgre\Builder))
+ 3 SYSTEMPATH\Database\BaseBuilder.php(955): CodeIgniter\Database\BaseBuilder->buildSubquery(Object(CodeIgniter\Database\Postgre\Builder), true)
+ 4 SYSTEMPATH\Database\BaseBuilder.php(852): CodeIgniter\Database\BaseBuilder->_whereIn('"room"."id"', Object(Closure), ' NOT', 'AND ', true)
+ 5 APPPATH\Models\RoomModel.php(75): CodeIgniter\Database\BaseBuilder->whereNotIn('room.id', Object(Closure))
+ 6 APPPATH\Controllers\roles_controllers\administrator\RoomsRegisterController.php(72): App\Models\RoomModel->searchFreeRoom('0', '', '', '', '2024-01-08', '2024-01-14')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsRegisterController->search_room()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsRegisterController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 20:16:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-04 20:16:09 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 78.
+ 1 APPPATH\Models\RoomModel.php(78): pg_escape_string('2024-01-14')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(3505): App\Models\RoomModel->App\Models\{closure}(Object(CodeIgniter\Database\Postgre\Builder))
+ 3 SYSTEMPATH\Database\BaseBuilder.php(955): CodeIgniter\Database\BaseBuilder->buildSubquery(Object(CodeIgniter\Database\Postgre\Builder), true)
+ 4 SYSTEMPATH\Database\BaseBuilder.php(852): CodeIgniter\Database\BaseBuilder->_whereIn('"room"."id"', Object(Closure), ' NOT', 'AND ', true)
+ 5 APPPATH\Models\RoomModel.php(75): CodeIgniter\Database\BaseBuilder->whereNotIn('room.id', Object(Closure))
+ 6 APPPATH\Controllers\roles_controllers\administrator\RoomsRegisterController.php(72): App\Models\RoomModel->searchFreeRoom('0', '', '', '', '2024-01-20', '2024-01-14')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsRegisterController->search_room()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsRegisterController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-04 20:16:09 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 79.
+ 1 APPPATH\Models\RoomModel.php(79): pg_escape_string('2024-01-20')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(3505): App\Models\RoomModel->App\Models\{closure}(Object(CodeIgniter\Database\Postgre\Builder))
+ 3 SYSTEMPATH\Database\BaseBuilder.php(955): CodeIgniter\Database\BaseBuilder->buildSubquery(Object(CodeIgniter\Database\Postgre\Builder), true)
+ 4 SYSTEMPATH\Database\BaseBuilder.php(852): CodeIgniter\Database\BaseBuilder->_whereIn('"room"."id"', Object(Closure), ' NOT', 'AND ', true)
+ 5 APPPATH\Models\RoomModel.php(75): CodeIgniter\Database\BaseBuilder->whereNotIn('room.id', Object(Closure))
+ 6 APPPATH\Controllers\roles_controllers\administrator\RoomsRegisterController.php(72): App\Models\RoomModel->searchFreeRoom('0', '', '', '', '2024-01-20', '2024-01-14')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsRegisterController->search_room()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsRegisterController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 20:16:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-04 20:16:10 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 78.
+ 1 APPPATH\Models\RoomModel.php(78): pg_escape_string('2024-01-24')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(3505): App\Models\RoomModel->App\Models\{closure}(Object(CodeIgniter\Database\Postgre\Builder))
+ 3 SYSTEMPATH\Database\BaseBuilder.php(955): CodeIgniter\Database\BaseBuilder->buildSubquery(Object(CodeIgniter\Database\Postgre\Builder), true)
+ 4 SYSTEMPATH\Database\BaseBuilder.php(852): CodeIgniter\Database\BaseBuilder->_whereIn('"room"."id"', Object(Closure), ' NOT', 'AND ', true)
+ 5 APPPATH\Models\RoomModel.php(75): CodeIgniter\Database\BaseBuilder->whereNotIn('room.id', Object(Closure))
+ 6 APPPATH\Controllers\roles_controllers\administrator\RoomsRegisterController.php(72): App\Models\RoomModel->searchFreeRoom('0', '', '', '', '2024-01-20', '2024-01-24')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsRegisterController->search_room()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsRegisterController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-04 20:16:10 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 79.
+ 1 APPPATH\Models\RoomModel.php(79): pg_escape_string('2024-01-20')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(3505): App\Models\RoomModel->App\Models\{closure}(Object(CodeIgniter\Database\Postgre\Builder))
+ 3 SYSTEMPATH\Database\BaseBuilder.php(955): CodeIgniter\Database\BaseBuilder->buildSubquery(Object(CodeIgniter\Database\Postgre\Builder), true)
+ 4 SYSTEMPATH\Database\BaseBuilder.php(852): CodeIgniter\Database\BaseBuilder->_whereIn('"room"."id"', Object(Closure), ' NOT', 'AND ', true)
+ 5 APPPATH\Models\RoomModel.php(75): CodeIgniter\Database\BaseBuilder->whereNotIn('room.id', Object(Closure))
+ 6 APPPATH\Controllers\roles_controllers\administrator\RoomsRegisterController.php(72): App\Models\RoomModel->searchFreeRoom('0', '', '', '', '2024-01-20', '2024-01-24')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsRegisterController->search_room()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsRegisterController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 20:16:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-04 20:16:11 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 31.
+ 1 APPPATH\Models\CustomerModel.php(31): pg_escape_string('380501234567')
+ 2 APPPATH\Controllers\roles_controllers\administrator\RoomsRegisterController.php(84): App\Models\CustomerModel->search_customer('', '', '', '380501234567')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsRegisterController->add_settlement()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsRegisterController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-04 20:16:11 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\SettlementModel.php on line 33.
+ 1 APPPATH\Models\SettlementModel.php(33): pg_escape_string('5')
+ 2 APPPATH\Controllers\roles_controllers\administrator\RoomsRegisterController.php(86): App\Models\SettlementModel->addSettlement('5', '45', '2024-01-20', '2024-01-24', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsRegisterController->add_settlement()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsRegisterController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-04 20:16:11 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\SettlementModel.php on line 34.
+ 1 APPPATH\Models\SettlementModel.php(34): pg_escape_string('45')
+ 2 APPPATH\Controllers\roles_controllers\administrator\RoomsRegisterController.php(86): App\Models\SettlementModel->addSettlement('5', '45', '2024-01-20', '2024-01-24', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsRegisterController->add_settlement()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsRegisterController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-04 20:16:11 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\SettlementModel.php on line 35.
+ 1 APPPATH\Models\SettlementModel.php(35): pg_escape_string('2024-01-20')
+ 2 APPPATH\Controllers\roles_controllers\administrator\RoomsRegisterController.php(86): App\Models\SettlementModel->addSettlement('5', '45', '2024-01-20', '2024-01-24', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsRegisterController->add_settlement()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsRegisterController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-04 20:16:11 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\SettlementModel.php on line 36.
+ 1 APPPATH\Models\SettlementModel.php(36): pg_escape_string('2024-01-24')
+ 2 APPPATH\Controllers\roles_controllers\administrator\RoomsRegisterController.php(86): App\Models\SettlementModel->addSettlement('5', '45', '2024-01-20', '2024-01-24', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsRegisterController->add_settlement()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsRegisterController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-04 20:16:11 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\SettlementModel.php on line 37.
+ 1 APPPATH\Models\SettlementModel.php(37): pg_escape_string('')
+ 2 APPPATH\Controllers\roles_controllers\administrator\RoomsRegisterController.php(86): App\Models\SettlementModel->addSettlement('5', '45', '2024-01-20', '2024-01-24', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsRegisterController->add_settlement()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsRegisterController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 20:16:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-04 20:16:12 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 78.
+ 1 APPPATH\Models\RoomModel.php(78): pg_escape_string('2024-01-24')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(3505): App\Models\RoomModel->App\Models\{closure}(Object(CodeIgniter\Database\Postgre\Builder))
+ 3 SYSTEMPATH\Database\BaseBuilder.php(955): CodeIgniter\Database\BaseBuilder->buildSubquery(Object(CodeIgniter\Database\Postgre\Builder), true)
+ 4 SYSTEMPATH\Database\BaseBuilder.php(852): CodeIgniter\Database\BaseBuilder->_whereIn('"room"."id"', Object(Closure), ' NOT', 'AND ', true)
+ 5 APPPATH\Models\RoomModel.php(75): CodeIgniter\Database\BaseBuilder->whereNotIn('room.id', Object(Closure))
+ 6 APPPATH\Controllers\roles_controllers\administrator\RoomsRegisterController.php(72): App\Models\RoomModel->searchFreeRoom('0', '', '', '', '2024-01-20', '2024-01-24')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsRegisterController->search_room()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsRegisterController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-04 20:16:12 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 79.
+ 1 APPPATH\Models\RoomModel.php(79): pg_escape_string('2024-01-20')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(3505): App\Models\RoomModel->App\Models\{closure}(Object(CodeIgniter\Database\Postgre\Builder))
+ 3 SYSTEMPATH\Database\BaseBuilder.php(955): CodeIgniter\Database\BaseBuilder->buildSubquery(Object(CodeIgniter\Database\Postgre\Builder), true)
+ 4 SYSTEMPATH\Database\BaseBuilder.php(852): CodeIgniter\Database\BaseBuilder->_whereIn('"room"."id"', Object(Closure), ' NOT', 'AND ', true)
+ 5 APPPATH\Models\RoomModel.php(75): CodeIgniter\Database\BaseBuilder->whereNotIn('room.id', Object(Closure))
+ 6 APPPATH\Controllers\roles_controllers\administrator\RoomsRegisterController.php(72): App\Models\RoomModel->searchFreeRoom('0', '', '', '', '2024-01-20', '2024-01-24')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsRegisterController->search_room()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsRegisterController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 20:16:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 20:16:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 20:16:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-04 20:16:26 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 37.
+ 1 APPPATH\Models\RoomModel.php(37): pg_escape_string('2024-01-08')
+ 2 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(42): App\Models\RoomModel->searchRooms('', '0', '', '', '', '2024-01-08', '2024-01-24', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->search_room()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-04 20:16:26 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 39.
+ 1 APPPATH\Models\RoomModel.php(39): pg_escape_string('2024-01-24')
+ 2 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(42): App\Models\RoomModel->searchRooms('', '0', '', '', '', '2024-01-08', '2024-01-24', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->search_room()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 20:35:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 20:35:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 20:35:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 20:35:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 20:36:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 20:36:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 20:36:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 20:36:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 20:36:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 20:36:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 20:36:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-04 20:36:26 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\UserModel.php on line 41.
+ 1 APPPATH\Models\UserModel.php(41): pg_escape_string('3')
+ 2 APPPATH\Controllers\roles_controllers\administrator\OrderCreateController.php(27): App\Models\UserModel->search_worker('', '', '', '', 3)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\OrderCreateController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\OrderCreateController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 20:36:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 20:36:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 20:36:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-04 20:36:29 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\UserModel.php on line 41.
+ 1 APPPATH\Models\UserModel.php(41): pg_escape_string('3')
+ 2 APPPATH\Controllers\roles_controllers\administrator\OrderCreateController.php(27): App\Models\UserModel->search_worker('', '', '', '', 3)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\OrderCreateController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\OrderCreateController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 20:36:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-04 20:36:52 --> "check_services" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 319.
+ 1 SYSTEMPATH\Validation\Validation.php(319): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('check_services')
+ 2 SYSTEMPATH\Validation\Validation.php(197): CodeIgniter\Validation\Validation->processRules('services', 'services', [...], [...], [...])
+ 3 APPPATH\Controllers\roles_controllers\administrator\OrderCreateController.php(40): CodeIgniter\Validation\Validation->run([...], 'register')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\OrderCreateController->create_order()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\OrderCreateController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 20:37:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-04 20:37:02 --> "check_services" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 319.
+ 1 SYSTEMPATH\Validation\Validation.php(319): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('check_services')
+ 2 SYSTEMPATH\Validation\Validation.php(197): CodeIgniter\Validation\Validation->processRules('services', 'services', [...], [...], [...])
+ 3 APPPATH\Controllers\roles_controllers\administrator\OrderCreateController.php(40): CodeIgniter\Validation\Validation->run([...], 'register')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\OrderCreateController->create_order()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\OrderCreateController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 20:37:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-04 20:37:43 --> "check_services" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 319.
+ 1 SYSTEMPATH\Validation\Validation.php(319): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('check_services')
+ 2 SYSTEMPATH\Validation\Validation.php(197): CodeIgniter\Validation\Validation->processRules('services', 'services', [...], [...], [...])
+ 3 APPPATH\Controllers\roles_controllers\administrator\OrderCreateController.php(40): CodeIgniter\Validation\Validation->run([...], 'register')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\OrderCreateController->create_order()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\OrderCreateController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 20:38:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-04 20:38:58 --> "check_services()" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 319.
+ 1 SYSTEMPATH\Validation\Validation.php(319): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('check_services()')
+ 2 SYSTEMPATH\Validation\Validation.php(197): CodeIgniter\Validation\Validation->processRules('services', 'services', [...], [...], [...])
+ 3 APPPATH\Controllers\roles_controllers\administrator\OrderCreateController.php(40): CodeIgniter\Validation\Validation->run([...], 'register')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\OrderCreateController->create_order()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\OrderCreateController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 20:39:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 20:46:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-04 20:46:17 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\UserModel.php on line 41.
+ 1 APPPATH\Models\UserModel.php(41): pg_escape_string('3')
+ 2 APPPATH\Controllers\roles_controllers\administrator\OrderCreateController.php(27): App\Models\UserModel->search_worker('', '', '', '', 3)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\OrderCreateController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\OrderCreateController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 20:46:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 20:47:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-04 20:47:25 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\UserModel.php on line 41.
+ 1 APPPATH\Models\UserModel.php(41): pg_escape_string('3')
+ 2 APPPATH\Controllers\roles_controllers\administrator\OrderCreateController.php(27): App\Models\UserModel->search_worker('', '', '', '', 3)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\OrderCreateController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\OrderCreateController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 20:47:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-04 20:47:30 --> Undefined property: stdClass::$number
+in APPPATH\Controllers\roles_controllers\administrator\OrderCreateController.php on line 46.
+ 1 APPPATH\Controllers\roles_controllers\administrator\OrderCreateController.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$number', 'D:\\curs_server\\web_p\\app\\Controllers\\roles_controllers\\administrator\\OrderCreateController.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\OrderCreateController->create_order()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\OrderCreateController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 20:47:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-04 20:47:44 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 106.
+ 1 APPPATH\Models\RoomModel.php(106): pg_escape_string('116')
+ 2 APPPATH\Controllers\roles_controllers\administrator\OrderCreateController.php(52): App\Models\RoomModel->getInfo('116', 0, null, null, null)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\OrderCreateController->create_order()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\OrderCreateController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 20:47:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 20:47:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 20:48:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-04 20:48:38 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\UserModel.php on line 41.
+ 1 APPPATH\Models\UserModel.php(41): pg_escape_string('3')
+ 2 APPPATH\Controllers\roles_controllers\administrator\OrderCreateController.php(27): App\Models\UserModel->search_worker('', '', '', '', 3)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\OrderCreateController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\OrderCreateController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 20:48:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 20:48:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 20:48:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 20:48:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:22:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:22:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:22:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:22:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:22:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:22:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:22:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:23:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:24:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:24:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:24:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:27:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:29:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:30:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:30:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:30:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:30:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:30:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:30:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:33:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:33:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:36:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:36:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-04 21:36:52 --> Call to undefined method App\Models\CustomerModel::search_customer_wi
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(33): CodeIgniter\Model->__call('search_customer_wi', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->search_customer()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 21:36:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:36:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-04 21:36:58 --> Call to undefined method App\Models\CustomerModel::search_customer_wi
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(33): CodeIgniter\Model->__call('search_customer_wi', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->search_customer()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 21:37:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:37:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-04 21:37:10 --> Call to undefined method App\Models\CustomerModel::search_customer_wi
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(33): CodeIgniter\Model->__call('search_customer_wi', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->search_customer()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 21:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:38:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:38:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:38:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:38:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:38:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:39:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-04 21:39:04 --> Undefined array key 0
+in APPPATH\Models\UserModel.php on line 66.
+ 1 APPPATH\Models\UserModel.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\curs_server\\web_p\\app\\Models\\UserModel.php', 66)
+ 2 APPPATH\Controllers\ScheduleController.php(19): App\Models\UserModel->get_schedule_id('45')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ScheduleController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ScheduleController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 21:39:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-04 21:39:26 --> Attempt to read property "schedule_id" on array
+in APPPATH\Models\UserModel.php on line 66.
+ 1 APPPATH\Models\UserModel.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "schedule_id" on array', 'D:\\curs_server\\web_p\\app\\Models\\UserModel.php', 66)
+ 2 APPPATH\Controllers\ScheduleController.php(19): App\Models\UserModel->get_schedule_id('45')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ScheduleController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ScheduleController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 21:39:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-04 21:39:32 --> Undefined array key 0
+in APPPATH\Models\UserModel.php on line 66.
+ 1 APPPATH\Models\UserModel.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\curs_server\\web_p\\app\\Models\\UserModel.php', 66)
+ 2 APPPATH\Controllers\ScheduleController.php(19): App\Models\UserModel->get_schedule_id('45')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ScheduleController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ScheduleController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 21:39:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-04 21:39:46 --> Undefined array key 0
+in APPPATH\Models\UserModel.php on line 65.
+ 1 APPPATH\Models\UserModel.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\curs_server\\web_p\\app\\Models\\UserModel.php', 65)
+ 2 APPPATH\Controllers\ScheduleController.php(19): App\Models\UserModel->get_schedule_id('45')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ScheduleController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ScheduleController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 21:39:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-04 21:39:51 --> Attempt to read property "schedule_id" on array
+in APPPATH\Models\UserModel.php on line 65.
+ 1 APPPATH\Models\UserModel.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "schedule_id" on array', 'D:\\curs_server\\web_p\\app\\Models\\UserModel.php', 65)
+ 2 APPPATH\Controllers\ScheduleController.php(19): App\Models\UserModel->get_schedule_id('45')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ScheduleController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ScheduleController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 21:39:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-04 21:39:56 --> Undefined array key 0
+in APPPATH\Models\ScheduleModel.php on line 31.
+ 1 APPPATH\Models\ScheduleModel.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\curs_server\\web_p\\app\\Models\\ScheduleModel.php', 31)
+ 2 APPPATH\Controllers\ScheduleController.php(21): App\Models\ScheduleModel->get_schedule(null)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ScheduleController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ScheduleController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 21:40:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-04 21:40:16 --> Array to string conversion
+in APPPATH\Views\schedule.php on line 101.
+ 1 APPPATH\Views\schedule.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\curs_server\\web_p\\app\\Views\\schedule.php', 101)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\curs_server\\web_p\\app\\Views\\schedule.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('schedule', [], true)
+ 5 APPPATH\Controllers\ScheduleController.php(26): view('schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ScheduleController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ScheduleController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 21:40:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:40:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-04 21:40:59 --> Unclosed '{' on line 61 does not match ')'
+in APPPATH\Models\UserModel.php on line 65.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\curs_server\\web_p\\app\\Models\\UserModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\UserModel')
+ 3 APPPATH\Controllers\ScheduleController.php(15): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\UserModel')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ScheduleController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ScheduleController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 21:41:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-04 21:41:03 --> Undefined array key 0
+in APPPATH\Models\UserModel.php on line 65.
+ 1 APPPATH\Models\UserModel.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\curs_server\\web_p\\app\\Models\\UserModel.php', 65)
+ 2 APPPATH\Controllers\ScheduleController.php(19): App\Models\UserModel->get_schedule_id('45')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ScheduleController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ScheduleController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 21:42:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:42:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:42:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:42:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:42:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:42:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:42:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:42:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:42:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:42:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:42:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:42:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:42:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:42:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-04 21:42:43 --> Array to string conversion
+in APPPATH\Views\schedule.php on line 101.
+ 1 APPPATH\Views\schedule.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\curs_server\\web_p\\app\\Views\\schedule.php', 101)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\curs_server\\web_p\\app\\Views\\schedule.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('schedule', [], true)
+ 5 APPPATH\Controllers\ScheduleController.php(26): view('schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ScheduleController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ScheduleController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 21:43:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:43:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:43:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:44:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:44:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:44:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:44:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:50:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:50:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:52:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:52:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:53:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:53:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:53:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:53:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:53:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:53:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:57:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:57:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:58:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:58:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:58:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:58:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:58:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:58:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-04 21:58:25 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\UserModel.php on line 41.
+ 1 APPPATH\Models\UserModel.php(41): pg_escape_string('3')
+ 2 APPPATH\Controllers\roles_controllers\administrator\OrderCreateController.php(27): App\Models\UserModel->search_worker('', '', '', '', 3)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\OrderCreateController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\OrderCreateController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 21:59:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-04 21:59:04 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 106.
+ 1 APPPATH\Models\RoomModel.php(106): pg_escape_string('123')
+ 2 APPPATH\Controllers\roles_controllers\administrator\OrderCreateController.php(52): App\Models\RoomModel->getInfo('123', 0, null, null, null)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\OrderCreateController->create_order()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\OrderCreateController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 21:59:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:59:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:59:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:59:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 21:59:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 22:02:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 22:02:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 22:04:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 22:04:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 22:04:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 22:04:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 22:04:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 22:04:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 22:04:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 22:04:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 22:04:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 22:04:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 22:04:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 22:04:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 22:04:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 22:04:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 22:04:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 22:05:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 22:05:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 22:05:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 22:05:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 22:05:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 22:06:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 22:06:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 22:06:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 22:06:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 22:06:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 22:06:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 22:06:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 22:08:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 22:08:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 22:08:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-04 22:08:09 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\UserModel.php on line 41.
+ 1 APPPATH\Models\UserModel.php(41): pg_escape_string('3')
+ 2 APPPATH\Controllers\roles_controllers\administrator\OrderCreateController.php(27): App\Models\UserModel->search_worker('', '', '', '', 3)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\OrderCreateController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\OrderCreateController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 22:08:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-04 22:08:22 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 106.
+ 1 APPPATH\Models\RoomModel.php(106): pg_escape_string('107')
+ 2 APPPATH\Controllers\roles_controllers\administrator\OrderCreateController.php(52): App\Models\RoomModel->getInfo('107', 0, null, null, null)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\OrderCreateController->create_order()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\OrderCreateController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 22:08:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 22:08:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 22:08:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 22:08:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-04 22:08:29 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\UserModel.php on line 41.
+ 1 APPPATH\Models\UserModel.php(41): pg_escape_string('3')
+ 2 APPPATH\Controllers\roles_controllers\administrator\OrderCreateController.php(27): App\Models\UserModel->search_worker('', '', '', '', 3)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\OrderCreateController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\OrderCreateController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 22:08:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 22:08:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 22:08:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-04 22:08:35 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\UserModel.php on line 41.
+ 1 APPPATH\Models\UserModel.php(41): pg_escape_string('3')
+ 2 APPPATH\Controllers\roles_controllers\administrator\OrderCreateController.php(27): App\Models\UserModel->search_worker('', '', '', '', 3)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\OrderCreateController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\OrderCreateController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 22:08:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-04 22:08:48 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 106.
+ 1 APPPATH\Models\RoomModel.php(106): pg_escape_string('109')
+ 2 APPPATH\Controllers\roles_controllers\administrator\OrderCreateController.php(52): App\Models\RoomModel->getInfo('109', 0, null, null, null)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\OrderCreateController->create_order()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\OrderCreateController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-04 22:08:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 22:08:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 22:08:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 22:08:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 22:09:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 22:09:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 22:09:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 22:09:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

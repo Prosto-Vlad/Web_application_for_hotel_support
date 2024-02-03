@@ -1,0 +1,1123 @@
+INFO - 2023-12-22 08:04:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 08:04:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 08:04:57 --> Undefined array key "first_name"
+in APPPATH\Controllers\roles_controllers\worker\TasksController.php on line 13.
+ 1 APPPATH\Controllers\roles_controllers\worker\TasksController.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "first_name"', 'D:\\curs_server\\web_p\\app\\Controllers\\roles_controllers\\worker\\TasksController.php', 13)
+ 2 APPPATH\Controllers\roles_controllers\worker\TasksController.php(24): App\Controllers\roles_controllers\worker\TasksController->makeHeadData([])
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\worker\TasksController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\worker\TasksController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 08:44:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 08:44:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 08:44:38 --> Undefined array key "role_id"
+in APPPATH\Controllers\roles_controllers\administrator\CustomersController.php on line 28.
+ 1 APPPATH\Controllers\roles_controllers\administrator\CustomersController.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role_id"', 'D:\\curs_server\\web_p\\app\\Controllers\\roles_controllers\\administrator\\CustomersController.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\CustomersController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\CustomersController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 08:45:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 08:49:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 08:49:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 08:49:29 --> syntax error, unexpected token ";", expecting ")"
+in APPPATH\Controllers\roles_controllers\administrator\OrderViewController.php on line 29.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\curs_server\\web_p\\app\\Controllers\\roles_controllers\\administrator\\OrderViewController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\roles_controllers\\administrator\\OrderViewController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\roles_controllers\\administrator\\OrderViewController')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\roles_controllers\\administrator\\OrderViewController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 08:49:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 08:49:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 08:49:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 08:49:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 08:49:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 08:49:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 08:58:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 08:58:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 08:58:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 08:58:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 08:58:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 08:58:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 08:59:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 09:06:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 09:12:49 --> syntax error, unexpected token "return"
+in APPPATH\Controllers\roles_controllers\worker\TasksController.php on line 24.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\curs_server\\web_p\\app\\Controllers\\roles_controllers\\worker\\TasksController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\roles_controllers\\worker\\TasksController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\roles_controllers\\worker\\TasksController')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\roles_controllers\\worker\\TasksController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 09:13:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 09:13:30 --> syntax error, unexpected token "return"
+in APPPATH\Controllers\roles_controllers\worker\TasksController.php on line 24.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\curs_server\\web_p\\app\\Controllers\\roles_controllers\\worker\\TasksController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\roles_controllers\\worker\\TasksController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\roles_controllers\\worker\\TasksController')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\roles_controllers\\worker\\TasksController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-22 09:14:12 --> syntax error, unexpected token "return"
+in APPPATH\Controllers\roles_controllers\worker\TasksController.php on line 24.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\curs_server\\web_p\\app\\Controllers\\roles_controllers\\worker\\TasksController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\roles_controllers\\worker\\TasksController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\roles_controllers\\worker\\TasksController')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\roles_controllers\\worker\\TasksController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 09:15:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 09:16:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 09:20:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 09:28:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 09:28:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 09:30:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 10:03:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 10:19:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 10:20:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 10:20:25 --> Undefined variable $room_types
+in APPPATH\Views\roles_view\administrator\rooms\search.php on line 25.
+ 1 APPPATH\Views\roles_view\administrator\rooms\search.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $room_types', 'D:\\curs_server\\web_p\\app\\Views\\roles_view\\administrator\\rooms\\search.php', 25)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\curs_server\\web_p\\app\\Views\\roles_view\\administrator\\rooms\\search.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('roles_view/administrator/rooms/search', [], true)
+ 5 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(16): view('roles_view/administrator/rooms/search', [])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 10:20:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 10:21:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 10:22:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 10:38:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 10:44:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 10:47:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 10:47:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 10:52:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 11:04:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 11:05:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 11:05:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 11:06:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 14:07:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 14:07:33 --> Call to undefined method App\Controllers\roles_controllers\administrator\RoomsSearchController::makeHeadData()
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 14:07:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 14:07:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 14:07:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 14:19:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 14:26:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 15:35:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 15:35:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 15:37:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 15:37:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 15:37:13 --> Too few arguments to function header_data(), 1 passed in D:\curs_server\web_p\app\Controllers\roles_controllers\manager\WorkersController.php on line 15 and exactly 2 expected
+in APPPATH\Helpers\hcreate_helper.php on line 3.
+ 1 APPPATH\Controllers\roles_controllers\manager\WorkersController.php(15): header_data(1)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\WorkersController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\WorkersController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 15:39:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 15:39:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 15:39:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 15:42:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 15:42:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 15:42:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 15:42:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 15:54:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 15:54:10 --> syntax error, unexpected end of file
+in APPPATH\Views\roles_view\administrator\rooms\search.php on line 65.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('roles_view/administrator/rooms/search', [...], true)
+ 3 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(24): view('roles_view/administrator/rooms/search', [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 15:55:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 15:55:47 --> syntax error, unexpected end of file
+in APPPATH\Views\roles_view\administrator\rooms\search.php on line 62.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('roles_view/administrator/rooms/search', [...], true)
+ 3 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(24): view('roles_view/administrator/rooms/search', [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 15:59:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 15:59:01 --> Undefined variable $room_types
+in APPPATH\Views\roles_view\administrator\rooms\search.php on line 24.
+ 1 APPPATH\Views\roles_view\administrator\rooms\search.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $room_types', 'D:\\curs_server\\web_p\\app\\Views\\roles_view\\administrator\\rooms\\search.php', 24)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\curs_server\\web_p\\app\\Views\\roles_view\\administrator\\rooms\\search.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('roles_view/administrator/rooms/search', [...], true)
+ 5 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(24): view('roles_view/administrator/rooms/search', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:00:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:00:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:00:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:01:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:01:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:01:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:01:16 --> Call to undefined function App\Controllers\roles_controllers\administrator\header_data()
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:02:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:02:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:02:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:02:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:02:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:02:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:02:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:03:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:03:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:03:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:03:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:03:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:04:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:04:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:04:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:04:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:04:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:04:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:05:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:06:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:06:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:06:26 --> Call to undefined function App\Controllers\roles_controllers\administrator\header_data()
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:06:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:06:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:06:33 --> Call to undefined function App\Controllers\roles_controllers\administrator\header_data()
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:06:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:06:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:06:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:06:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:06:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:06:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:10:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:10:09 --> Undefined variable $search_results
+in APPPATH\Views\roles_view\administrator\rooms\search.php on line 78.
+ 1 APPPATH\Views\roles_view\administrator\rooms\search.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $search_results', 'D:\\curs_server\\web_p\\app\\Views\\roles_view\\administrator\\rooms\\search.php', 78)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\curs_server\\web_p\\app\\Views\\roles_view\\administrator\\rooms\\search.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('roles_view/administrator/rooms/search', [], true)
+ 5 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(24): view('roles_view/administrator/rooms/search', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:10:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:10:12 --> Undefined variable $search_results
+in APPPATH\Views\roles_view\administrator\rooms\search.php on line 78.
+ 1 APPPATH\Views\roles_view\administrator\rooms\search.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $search_results', 'D:\\curs_server\\web_p\\app\\Views\\roles_view\\administrator\\rooms\\search.php', 78)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\curs_server\\web_p\\app\\Views\\roles_view\\administrator\\rooms\\search.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('roles_view/administrator/rooms/search', [], true)
+ 5 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(24): view('roles_view/administrator/rooms/search', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:10:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:11:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:23:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:23:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:23:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:24:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:24:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:25:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:26:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:26:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:26:54 --> Call to undefined function App\Controllers\roles_controllers\administrator\header_data()
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:26:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:26:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:26:56 --> Call to undefined function App\Controllers\roles_controllers\administrator\header_data()
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:26:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:26:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:26:57 --> Call to undefined function App\Controllers\roles_controllers\administrator\header_data()
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:26:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:26:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:26:58 --> Call to undefined function App\Controllers\roles_controllers\administrator\header_data()
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:26:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:37:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:37:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:37:22 --> Call to undefined function App\Controllers\roles_controllers\administrator\header_data()
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:37:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:37:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:37:23 --> Call to undefined function App\Controllers\roles_controllers\administrator\header_data()
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:37:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:37:24 --> Call to undefined function App\Controllers\roles_controllers\administrator\header_data()
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:37:24 --> Call to undefined function App\Controllers\roles_controllers\administrator\header_data()
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:37:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:37:25 --> Call to undefined function App\Controllers\roles_controllers\administrator\header_data()
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:37:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:37:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:37:25 --> Call to undefined function App\Controllers\roles_controllers\administrator\header_data()
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:37:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:37:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:37:26 --> Call to undefined function App\Controllers\roles_controllers\administrator\header_data()
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:37:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:37:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:37:26 --> Call to undefined function App\Controllers\roles_controllers\administrator\header_data()
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:37:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:37:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:37:27 --> Call to undefined function App\Controllers\roles_controllers\administrator\header_data()
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:37:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:37:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:37:27 --> Call to undefined function App\Controllers\roles_controllers\administrator\header_data()
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:37:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:37:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:37:27 --> Call to undefined function App\Controllers\roles_controllers\administrator\header_data()
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:37:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:37:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:37:28 --> Call to undefined function App\Controllers\roles_controllers\administrator\header_data()
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:37:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:37:28 --> Call to undefined function App\Controllers\roles_controllers\administrator\header_data()
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:37:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:37:29 --> Call to undefined function App\Controllers\roles_controllers\administrator\header_data()
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:37:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:37:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:37:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:37:48 --> Call to undefined function App\Controllers\roles_controllers\administrator\header_data()
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:37:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:37:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:37:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:37:52 --> Call to undefined function App\Controllers\roles_controllers\administrator\header_data()
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:37:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:37:53 --> Call to undefined function App\Controllers\roles_controllers\administrator\header_data()
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:37:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:37:54 --> Call to undefined function App\Controllers\roles_controllers\administrator\header_data()
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:37:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:37:54 --> Call to undefined function App\Controllers\roles_controllers\administrator\header_data()
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:37:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:37:54 --> Call to undefined function App\Controllers\roles_controllers\administrator\header_data()
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:37:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:37:54 --> Call to undefined function App\Controllers\roles_controllers\administrator\header_data()
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:37:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:37:55 --> Call to undefined function App\Controllers\roles_controllers\administrator\header_data()
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:37:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:37:55 --> Call to undefined function App\Controllers\roles_controllers\administrator\header_data()
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:37:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:37:55 --> Call to undefined function App\Controllers\roles_controllers\administrator\header_data()
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:37:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:37:55 --> Call to undefined function App\Controllers\roles_controllers\administrator\header_data()
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:37:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:37:56 --> Call to undefined function App\Controllers\roles_controllers\administrator\header_data()
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:37:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:37:56 --> Call to undefined function App\Controllers\roles_controllers\administrator\header_data()
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:37:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:37:56 --> Call to undefined function App\Controllers\roles_controllers\administrator\header_data()
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:37:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:37:56 --> Call to undefined function App\Controllers\roles_controllers\administrator\header_data()
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:37:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:37:56 --> Call to undefined function App\Controllers\roles_controllers\administrator\header_data()
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:37:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:37:56 --> Call to undefined function App\Controllers\roles_controllers\administrator\header_data()
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:37:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:37:57 --> Call to undefined function App\Controllers\roles_controllers\administrator\header_data()
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:37:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:37:57 --> Call to undefined function App\Controllers\roles_controllers\administrator\header_data()
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:37:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:37:57 --> Call to undefined function App\Controllers\roles_controllers\administrator\header_data()
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:37:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:37:57 --> Call to undefined function App\Controllers\roles_controllers\administrator\header_data()
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:37:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:37:57 --> Call to undefined function App\Controllers\roles_controllers\administrator\header_data()
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:37:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:37:58 --> Call to undefined function App\Controllers\roles_controllers\administrator\header_data()
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:37:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:37:58 --> Call to undefined function App\Controllers\roles_controllers\administrator\header_data()
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:37:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:37:58 --> Call to undefined function App\Controllers\roles_controllers\administrator\header_data()
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:37:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:37:58 --> Call to undefined function App\Controllers\roles_controllers\administrator\header_data()
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:37:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:37:58 --> Call to undefined function App\Controllers\roles_controllers\administrator\header_data()
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:37:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:37:59 --> Call to undefined function App\Controllers\roles_controllers\administrator\header_data()
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:37:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:37:59 --> Call to undefined function App\Controllers\roles_controllers\administrator\header_data()
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:37:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:37:59 --> Call to undefined function App\Controllers\roles_controllers\administrator\header_data()
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:37:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:37:59 --> Call to undefined function App\Controllers\roles_controllers\administrator\header_data()
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:37:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:37:59 --> Call to undefined function App\Controllers\roles_controllers\administrator\header_data()
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:38:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:38:00 --> Call to undefined function App\Controllers\roles_controllers\administrator\header_data()
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:39:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:39:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:39:35 --> Call to undefined function App\Controllers\roles_controllers\administrator\header_data()
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:42:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:42:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:42:37 --> Undefined property: stdClass::$min_price
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 43.
+ 1 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$min_price', 'D:\\curs_server\\web_p\\app\\Controllers\\roles_controllers\\administrator\\RoomsSearchController.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:43:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:43:27 --> syntax error, unexpected variable "$res_data"
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 42.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\curs_server\\web_p\\app\\Controllers\\roles_controllers\\administrator\\RoomsSearchController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\roles_controllers\\administrator\\RoomsSearchController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\roles_controllers\\administrator\\RoomsSearchController')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\roles_controllers\\administrator\\RoomsSearchController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:43:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:43:29 --> syntax error, unexpected variable "$res_data"
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 42.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\curs_server\\web_p\\app\\Controllers\\roles_controllers\\administrator\\RoomsSearchController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\roles_controllers\\administrator\\RoomsSearchController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\roles_controllers\\administrator\\RoomsSearchController')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\roles_controllers\\administrator\\RoomsSearchController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:43:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:43:35 --> Undefined property: stdClass::$min_price
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 34.
+ 1 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$min_price', 'D:\\curs_server\\web_p\\app\\Controllers\\roles_controllers\\administrator\\RoomsSearchController.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:43:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:43:36 --> Undefined property: stdClass::$min_price
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 34.
+ 1 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$min_price', 'D:\\curs_server\\web_p\\app\\Controllers\\roles_controllers\\administrator\\RoomsSearchController.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:43:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:43:37 --> Undefined property: stdClass::$min_price
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 34.
+ 1 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$min_price', 'D:\\curs_server\\web_p\\app\\Controllers\\roles_controllers\\administrator\\RoomsSearchController.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:43:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:43:37 --> Undefined property: stdClass::$min_price
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 34.
+ 1 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$min_price', 'D:\\curs_server\\web_p\\app\\Controllers\\roles_controllers\\administrator\\RoomsSearchController.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:43:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:43:37 --> Undefined property: stdClass::$min_price
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 34.
+ 1 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$min_price', 'D:\\curs_server\\web_p\\app\\Controllers\\roles_controllers\\administrator\\RoomsSearchController.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:43:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:43:37 --> Undefined property: stdClass::$min_price
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 34.
+ 1 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$min_price', 'D:\\curs_server\\web_p\\app\\Controllers\\roles_controllers\\administrator\\RoomsSearchController.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:43:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:45:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:45:32 --> Undefined property: stdClass::$min_price
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 34.
+ 1 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$min_price', 'D:\\curs_server\\web_p\\app\\Controllers\\roles_controllers\\administrator\\RoomsSearchController.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:45:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:45:43 --> Undefined property: stdClass::$min_price
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 34.
+ 1 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$min_price', 'D:\\curs_server\\web_p\\app\\Controllers\\roles_controllers\\administrator\\RoomsSearchController.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:45:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:45:44 --> Undefined property: stdClass::$min_price
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 34.
+ 1 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$min_price', 'D:\\curs_server\\web_p\\app\\Controllers\\roles_controllers\\administrator\\RoomsSearchController.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:45:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:45:44 --> Undefined property: stdClass::$min_price
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 34.
+ 1 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$min_price', 'D:\\curs_server\\web_p\\app\\Controllers\\roles_controllers\\administrator\\RoomsSearchController.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:45:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:45:44 --> Undefined property: stdClass::$min_price
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 34.
+ 1 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$min_price', 'D:\\curs_server\\web_p\\app\\Controllers\\roles_controllers\\administrator\\RoomsSearchController.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:45:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:45:44 --> Undefined property: stdClass::$min_price
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 34.
+ 1 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$min_price', 'D:\\curs_server\\web_p\\app\\Controllers\\roles_controllers\\administrator\\RoomsSearchController.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:45:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:45:44 --> Undefined property: stdClass::$min_price
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 34.
+ 1 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$min_price', 'D:\\curs_server\\web_p\\app\\Controllers\\roles_controllers\\administrator\\RoomsSearchController.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:45:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:45:44 --> Undefined property: stdClass::$min_price
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 34.
+ 1 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$min_price', 'D:\\curs_server\\web_p\\app\\Controllers\\roles_controllers\\administrator\\RoomsSearchController.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:45:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:45:44 --> Undefined property: stdClass::$min_price
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 34.
+ 1 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$min_price', 'D:\\curs_server\\web_p\\app\\Controllers\\roles_controllers\\administrator\\RoomsSearchController.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:45:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:45:45 --> Undefined property: stdClass::$min_price
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 34.
+ 1 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$min_price', 'D:\\curs_server\\web_p\\app\\Controllers\\roles_controllers\\administrator\\RoomsSearchController.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:45:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:45:45 --> Undefined property: stdClass::$min_price
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 34.
+ 1 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$min_price', 'D:\\curs_server\\web_p\\app\\Controllers\\roles_controllers\\administrator\\RoomsSearchController.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:45:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:45:45 --> Undefined property: stdClass::$min_price
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 34.
+ 1 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$min_price', 'D:\\curs_server\\web_p\\app\\Controllers\\roles_controllers\\administrator\\RoomsSearchController.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:45:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:45:45 --> Undefined property: stdClass::$min_price
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 34.
+ 1 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$min_price', 'D:\\curs_server\\web_p\\app\\Controllers\\roles_controllers\\administrator\\RoomsSearchController.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:45:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:45:45 --> Undefined property: stdClass::$min_price
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 34.
+ 1 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$min_price', 'D:\\curs_server\\web_p\\app\\Controllers\\roles_controllers\\administrator\\RoomsSearchController.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:45:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:45:45 --> Undefined property: stdClass::$min_price
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 34.
+ 1 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$min_price', 'D:\\curs_server\\web_p\\app\\Controllers\\roles_controllers\\administrator\\RoomsSearchController.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:45:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:45:45 --> Undefined property: stdClass::$min_price
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 34.
+ 1 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$min_price', 'D:\\curs_server\\web_p\\app\\Controllers\\roles_controllers\\administrator\\RoomsSearchController.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:45:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:45:45 --> Undefined property: stdClass::$min_price
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 34.
+ 1 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$min_price', 'D:\\curs_server\\web_p\\app\\Controllers\\roles_controllers\\administrator\\RoomsSearchController.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:45:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:45:46 --> Undefined property: stdClass::$min_price
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 34.
+ 1 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$min_price', 'D:\\curs_server\\web_p\\app\\Controllers\\roles_controllers\\administrator\\RoomsSearchController.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:45:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:45:46 --> Undefined property: stdClass::$min_price
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 34.
+ 1 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$min_price', 'D:\\curs_server\\web_p\\app\\Controllers\\roles_controllers\\administrator\\RoomsSearchController.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:45:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:45:46 --> Undefined property: stdClass::$min_price
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 34.
+ 1 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$min_price', 'D:\\curs_server\\web_p\\app\\Controllers\\roles_controllers\\administrator\\RoomsSearchController.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:45:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:45:46 --> Undefined property: stdClass::$min_price
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 34.
+ 1 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$min_price', 'D:\\curs_server\\web_p\\app\\Controllers\\roles_controllers\\administrator\\RoomsSearchController.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:45:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:45:46 --> Undefined property: stdClass::$min_price
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 34.
+ 1 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$min_price', 'D:\\curs_server\\web_p\\app\\Controllers\\roles_controllers\\administrator\\RoomsSearchController.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:45:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:45:46 --> Undefined property: stdClass::$min_price
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 34.
+ 1 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$min_price', 'D:\\curs_server\\web_p\\app\\Controllers\\roles_controllers\\administrator\\RoomsSearchController.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:45:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:45:46 --> Undefined property: stdClass::$min_price
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 34.
+ 1 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$min_price', 'D:\\curs_server\\web_p\\app\\Controllers\\roles_controllers\\administrator\\RoomsSearchController.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:45:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:45:47 --> Undefined property: stdClass::$min_price
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 34.
+ 1 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$min_price', 'D:\\curs_server\\web_p\\app\\Controllers\\roles_controllers\\administrator\\RoomsSearchController.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:49:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:49:55 --> Undefined property: stdClass::$min_price
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 34.
+ 1 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$min_price', 'D:\\curs_server\\web_p\\app\\Controllers\\roles_controllers\\administrator\\RoomsSearchController.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:50:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:50:21 --> Undefined property: stdClass::$min_price
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 34.
+ 1 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$min_price', 'D:\\curs_server\\web_p\\app\\Controllers\\roles_controllers\\administrator\\RoomsSearchController.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:51:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:51:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:51:05 --> Undefined property: stdClass::$num_of_beds
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 36.
+ 1 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$num_of_beds', 'D:\\curs_server\\web_p\\app\\Controllers\\roles_controllers\\administrator\\RoomsSearchController.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:51:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:51:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:51:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:51:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:51:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:51:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:51:29 --> Undefined property: stdClass::$num_of_beds
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 36.
+ 1 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$num_of_beds', 'D:\\curs_server\\web_p\\app\\Controllers\\roles_controllers\\administrator\\RoomsSearchController.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 16:54:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:54:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:54:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:54:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:54:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 16:54:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 16:54:05 --> Undefined property: stdClass::$num_of_beds
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 36.
+ 1 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$num_of_beds', 'D:\\curs_server\\web_p\\app\\Controllers\\roles_controllers\\administrator\\RoomsSearchController.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 17:02:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 17:02:31 --> Undefined property: stdClass::$num_of_beds
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 36.
+ 1 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$num_of_beds', 'D:\\curs_server\\web_p\\app\\Controllers\\roles_controllers\\administrator\\RoomsSearchController.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 17:02:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 17:02:42 --> Undefined property: stdClass::$num_of_beds
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 36.
+ 1 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$num_of_beds', 'D:\\curs_server\\web_p\\app\\Controllers\\roles_controllers\\administrator\\RoomsSearchController.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 17:03:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 17:03:29 --> Undefined property: stdClass::$num_of_beds
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 36.
+ 1 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$num_of_beds', 'D:\\curs_server\\web_p\\app\\Controllers\\roles_controllers\\administrator\\RoomsSearchController.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 17:05:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 17:05:03 --> Undefined property: stdClass::$num_of_beds
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 36.
+ 1 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$num_of_beds', 'D:\\curs_server\\web_p\\app\\Controllers\\roles_controllers\\administrator\\RoomsSearchController.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 17:06:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:07:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 17:07:36 --> Undefined property: stdClass::$booking_from
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 37.
+ 1 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$booking_from', 'D:\\curs_server\\web_p\\app\\Controllers\\roles_controllers\\administrator\\RoomsSearchController.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 17:08:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 17:08:33 --> Undefined property: stdClass::$booking_from
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 37.
+ 1 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$booking_from', 'D:\\curs_server\\web_p\\app\\Controllers\\roles_controllers\\administrator\\RoomsSearchController.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 17:08:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:08:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:08:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:08:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:08:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 17:08:57 --> Undefined property: stdClass::$booking_from
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 37.
+ 1 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$booking_from', 'D:\\curs_server\\web_p\\app\\Controllers\\roles_controllers\\administrator\\RoomsSearchController.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 17:09:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 17:09:03 --> Undefined property: stdClass::$booking_from
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 37.
+ 1 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$booking_from', 'D:\\curs_server\\web_p\\app\\Controllers\\roles_controllers\\administrator\\RoomsSearchController.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 17:09:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 17:09:59 --> Undefined property: stdClass::$booking_from
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 38.
+ 1 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$booking_from', 'D:\\curs_server\\web_p\\app\\Controllers\\roles_controllers\\administrator\\RoomsSearchController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 17:10:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 17:10:10 --> Undefined property: stdClass::$booking_from
+in APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php on line 38.
+ 1 APPPATH\Controllers\roles_controllers\administrator\RoomsSearchController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$booking_from', 'D:\\curs_server\\web_p\\app\\Controllers\\roles_controllers\\administrator\\RoomsSearchController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsSearchController->searchRoom()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsSearchController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-22 17:11:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:12:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:14:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:14:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:14:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:14:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:14:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:14:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:14:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:14:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:14:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:14:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:18:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:18:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:18:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:18:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:18:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:19:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:19:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:20:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:20:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:21:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:21:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:22:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:22:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:22:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:22:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:23:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:23:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:23:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:23:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:23:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:23:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:24:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:24:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:24:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:25:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:26:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:26:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:27:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:27:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:27:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:28:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:28:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:28:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:29:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:29:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:30:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:30:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:31:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:31:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:31:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:32:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:34:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:34:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:34:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:34:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:34:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:34:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:37:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:37:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:38:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:39:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:39:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:39:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:39:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:42:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:42:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:44:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 17:44:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

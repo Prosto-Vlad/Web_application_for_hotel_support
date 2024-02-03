@@ -1,0 +1,723 @@
+INFO - 2023-12-27 07:46:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 07:46:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 07:56:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-27 07:56:08 --> Error connecting to the database: ErrorException: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection refused (0x0000274D/10061)
+	Is the server running on host &quot;localhost&quot; (::1) and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused (0x0000274D/10061)
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? in D:\curs_server\web_p\system\Database\Postgre\Connection.php:72
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_connect(): U...', 'D:\\curs_server\\...', 72)
+#1 D:\curs_server\web_p\system\Database\Postgre\Connection.php(72): pg_connect('host=localhost ...')
+#2 D:\curs_server\web_p\system\Database\BaseConnection.php(392): CodeIgniter\Database\Postgre\Connection->connect(false)
+#3 D:\curs_server\web_p\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 D:\curs_server\web_p\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 D:\curs_server\web_p\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\curs_server\web_p\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#7 D:\curs_server\web_p\app\Controllers\SigninController.php(50): CodeIgniter\BaseModel->first()
+#8 D:\curs_server\web_p\system\CodeIgniter.php(942): App\Controllers\SigninController->signin()
+#9 D:\curs_server\web_p\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#10 D:\curs_server\web_p\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\curs_server\web_p\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-12-27 07:56:08 --> Unable to connect to the database.
+Main connection [postgre]: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection refused (0x0000274D/10061)
+	Is the server running on host &quot;localhost&quot; (::1) and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused (0x0000274D/10061)
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432?
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "worker"
+WHERE "login_w" = :login_w:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\SigninController.php(50): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\SigninController->signin()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-27 07:56:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 08:05:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-27 08:05:26 --> Error connecting to the database: ErrorException: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection refused (0x0000274D/10061)
+	Is the server running on host &quot;localhost&quot; (::1) and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused (0x0000274D/10061)
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? in D:\curs_server\web_p\system\Database\Postgre\Connection.php:72
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_connect(): U...', 'D:\\curs_server\\...', 72)
+#1 D:\curs_server\web_p\system\Database\Postgre\Connection.php(72): pg_connect('host=localhost ...')
+#2 D:\curs_server\web_p\system\Database\BaseConnection.php(392): CodeIgniter\Database\Postgre\Connection->connect(false)
+#3 D:\curs_server\web_p\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 D:\curs_server\web_p\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 D:\curs_server\web_p\app\Models\ScheduleModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\curs_server\web_p\app\Controllers\roles_controllers\manager\WorkersController.php(23): App\Models\ScheduleModel->getAll()
+#7 D:\curs_server\web_p\system\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\WorkersController->index()
+#8 D:\curs_server\web_p\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\WorkersController))
+#9 D:\curs_server\web_p\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\curs_server\web_p\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-12-27 08:05:26 --> Unable to connect to the database.
+Main connection [postgre]: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection refused (0x0000274D/10061)
+	Is the server running on host &quot;localhost&quot; (::1) and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused (0x0000274D/10061)
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432?
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "schedule"', [], false)
+ 3 APPPATH\Models\ScheduleModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\roles_controllers\manager\WorkersController.php(23): App\Models\ScheduleModel->getAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\WorkersController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\WorkersController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-27 08:24:12 --> Error connecting to the database: ErrorException: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection refused (0x0000274D/10061)
+	Is the server running on host &quot;localhost&quot; (::1) and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused (0x0000274D/10061)
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? in D:\curs_server\web_p\system\Database\Postgre\Connection.php:72
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_connect(): U...', 'D:\\curs_server\\...', 72)
+#1 D:\curs_server\web_p\system\Database\Postgre\Connection.php(72): pg_connect('host=localhost ...')
+#2 D:\curs_server\web_p\system\Database\BaseConnection.php(392): CodeIgniter\Database\Postgre\Connection->connect(false)
+#3 D:\curs_server\web_p\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 D:\curs_server\web_p\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT "custome...', Array, false)
+#5 D:\curs_server\web_p\app\Models\CustomerModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\curs_server\web_p\app\Controllers\roles_controllers\manager\CustomersController.php(36): App\Models\CustomerModel->search_customer('', '', '', '')
+#7 D:\curs_server\web_p\system\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->search_customer()
+#8 D:\curs_server\web_p\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+#9 D:\curs_server\web_p\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\curs_server\web_p\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-12-27 08:24:12 --> Unable to connect to the database.
+Main connection [postgre]: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection refused (0x0000274D/10061)
+	Is the server running on host &quot;localhost&quot; (::1) and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused (0x0000274D/10061)
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432?
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT "customer".*
+FROM "customer"
+LEFT JOIN "settlement" ON "customer"."id" = "settlement"."customer_id"
+LEFT JOIN "room" ON "settlement"."room_id" = "room"."id"', [], false)
+ 3 APPPATH\Models\CustomerModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(36): App\Models\CustomerModel->search_customer('', '', '', '')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->search_customer()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-27 08:28:54 --> Error connecting to the database: ErrorException: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection refused (0x0000274D/10061)
+	Is the server running on host &quot;localhost&quot; (::1) and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused (0x0000274D/10061)
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? in D:\curs_server\web_p\system\Database\Postgre\Connection.php:72
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_connect(): U...', 'D:\\curs_server\\...', 72)
+#1 D:\curs_server\web_p\system\Database\Postgre\Connection.php(72): pg_connect('host=localhost ...')
+#2 D:\curs_server\web_p\system\Database\BaseConnection.php(392): CodeIgniter\Database\Postgre\Connection->connect(false)
+#3 D:\curs_server\web_p\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 D:\curs_server\web_p\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT "custome...', Array, false)
+#5 D:\curs_server\web_p\app\Models\CustomerModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\curs_server\web_p\app\Controllers\roles_controllers\manager\CustomersController.php(36): App\Models\CustomerModel->search_customer('', '', '', '')
+#7 D:\curs_server\web_p\system\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->search_customer()
+#8 D:\curs_server\web_p\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+#9 D:\curs_server\web_p\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\curs_server\web_p\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-12-27 08:28:54 --> Unable to connect to the database.
+Main connection [postgre]: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection refused (0x0000274D/10061)
+	Is the server running on host &quot;localhost&quot; (::1) and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused (0x0000274D/10061)
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432?
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT "customer".*
+FROM "customer"
+LEFT JOIN "settlement" ON "customer"."id" = "settlement"."customer_id"
+LEFT JOIN "room" ON "settlement"."room_id" = "room"."id"', [], false)
+ 3 APPPATH\Models\CustomerModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(36): App\Models\CustomerModel->search_customer('', '', '', '')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->search_customer()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-27 08:29:57 --> Error connecting to the database: ErrorException: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection refused (0x0000274D/10061)
+	Is the server running on host &quot;localhost&quot; (::1) and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused (0x0000274D/10061)
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? in D:\curs_server\web_p\system\Database\Postgre\Connection.php:72
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_connect(): U...', 'D:\\curs_server\\...', 72)
+#1 D:\curs_server\web_p\system\Database\Postgre\Connection.php(72): pg_connect('host=localhost ...')
+#2 D:\curs_server\web_p\system\Database\BaseConnection.php(392): CodeIgniter\Database\Postgre\Connection->connect(false)
+#3 D:\curs_server\web_p\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 D:\curs_server\web_p\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT "custome...', Array, false)
+#5 D:\curs_server\web_p\app\Models\CustomerModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\curs_server\web_p\app\Controllers\roles_controllers\manager\CustomersController.php(36): App\Models\CustomerModel->search_customer('', '', '', '')
+#7 D:\curs_server\web_p\system\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->search_customer()
+#8 D:\curs_server\web_p\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+#9 D:\curs_server\web_p\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\curs_server\web_p\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-12-27 08:29:57 --> Unable to connect to the database.
+Main connection [postgre]: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection refused (0x0000274D/10061)
+	Is the server running on host &quot;localhost&quot; (::1) and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused (0x0000274D/10061)
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432?
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT "customer".*
+FROM "customer"
+LEFT JOIN "settlement" ON "customer"."id" = "settlement"."customer_id"
+LEFT JOIN "room" ON "settlement"."room_id" = "room"."id"', [], false)
+ 3 APPPATH\Models\CustomerModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(36): App\Models\CustomerModel->search_customer('', '', '', '')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->search_customer()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-27 08:34:51 --> Undefined variable $service
+in APPPATH\Views\roles_view\manager\customers_upd.php on line 7.
+ 1 APPPATH\Views\roles_view\manager\customers_upd.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $service', 'D:\\curs_server\\web_p\\app\\Views\\roles_view\\manager\\customers_upd.php', 7)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\curs_server\\web_p\\app\\Views\\roles_view\\manager\\customers_upd.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('roles_view/manager/customers_upd', [], true)
+ 5 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(59): view('roles_view/manager/customers_upd')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-27 08:35:16 --> Undefined variable $service
+in APPPATH\Views\roles_view\manager\customers_upd.php on line 67.
+ 1 APPPATH\Views\roles_view\manager\customers_upd.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $service', 'D:\\curs_server\\web_p\\app\\Views\\roles_view\\manager\\customers_upd.php', 67)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\curs_server\\web_p\\app\\Views\\roles_view\\manager\\customers_upd.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('roles_view/manager/customers_upd', [], true)
+ 5 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(59): view('roles_view/manager/customers_upd')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-27 08:35:34 --> syntax error, unexpected token ";"
+in APPPATH\Views\roles_view\manager\customers_upd.php on line 67.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('roles_view/manager/customers_upd', [], true)
+ 3 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(59): view('roles_view/manager/customers_upd')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-27 08:42:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-27 08:42:16 --> Undefined array key "first_name"
+in APPPATH\Helpers\hcreate_helper.php on line 8.
+ 1 APPPATH\Helpers\hcreate_helper.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "first_name"', 'D:\\curs_server\\web_p\\app\\Helpers\\hcreate_helper.php', 8)
+ 2 APPPATH\Controllers\roles_controllers\manager\ServicesController.php(18): header_data(1, [])
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\ServicesController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\ServicesController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-27 08:42:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-27 08:42:44 --> Undefined array key "first_name"
+in APPPATH\Helpers\hcreate_helper.php on line 8.
+ 1 APPPATH\Helpers\hcreate_helper.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "first_name"', 'D:\\curs_server\\web_p\\app\\Helpers\\hcreate_helper.php', 8)
+ 2 APPPATH\Controllers\roles_controllers\manager\ServicesController.php(18): header_data(1, [])
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\ServicesController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\ServicesController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-27 08:42:51 --> Error connecting to the database: ErrorException: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection refused (0x0000274D/10061)
+	Is the server running on host &quot;localhost&quot; (::1) and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused (0x0000274D/10061)
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? in D:\curs_server\web_p\system\Database\Postgre\Connection.php:72
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_connect(): U...', 'D:\\curs_server\\...', 72)
+#1 D:\curs_server\web_p\system\Database\Postgre\Connection.php(72): pg_connect('host=localhost ...')
+#2 D:\curs_server\web_p\system\Database\BaseConnection.php(392): CodeIgniter\Database\Postgre\Connection->connect(false)
+#3 D:\curs_server\web_p\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 D:\curs_server\web_p\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT "custome...', Array, false)
+#5 D:\curs_server\web_p\app\Models\CustomerModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\curs_server\web_p\app\Controllers\roles_controllers\manager\CustomersController.php(36): App\Models\CustomerModel->search_customer('', '', '', '')
+#7 D:\curs_server\web_p\system\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->search_customer()
+#8 D:\curs_server\web_p\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+#9 D:\curs_server\web_p\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\curs_server\web_p\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-12-27 08:42:51 --> Unable to connect to the database.
+Main connection [postgre]: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection refused (0x0000274D/10061)
+	Is the server running on host &quot;localhost&quot; (::1) and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused (0x0000274D/10061)
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432?
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT "customer".*
+FROM "customer"
+LEFT JOIN "settlement" ON "customer"."id" = "settlement"."customer_id"
+LEFT JOIN "room" ON "settlement"."room_id" = "room"."id"', [], false)
+ 3 APPPATH\Models\CustomerModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(36): App\Models\CustomerModel->search_customer('', '', '', '')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->search_customer()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-27 08:43:06 --> Error connecting to the database: ErrorException: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection refused (0x0000274D/10061)
+	Is the server running on host &quot;localhost&quot; (::1) and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused (0x0000274D/10061)
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? in D:\curs_server\web_p\system\Database\Postgre\Connection.php:72
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_connect(): U...', 'D:\\curs_server\\...', 72)
+#1 D:\curs_server\web_p\system\Database\Postgre\Connection.php(72): pg_connect('host=localhost ...')
+#2 D:\curs_server\web_p\system\Database\BaseConnection.php(392): CodeIgniter\Database\Postgre\Connection->connect(false)
+#3 D:\curs_server\web_p\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 D:\curs_server\web_p\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT "custome...', Array, false)
+#5 D:\curs_server\web_p\app\Models\CustomerModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\curs_server\web_p\app\Controllers\roles_controllers\manager\CustomersController.php(36): App\Models\CustomerModel->search_customer('', '', '', '')
+#7 D:\curs_server\web_p\system\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->search_customer()
+#8 D:\curs_server\web_p\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+#9 D:\curs_server\web_p\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\curs_server\web_p\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-12-27 08:43:06 --> Unable to connect to the database.
+Main connection [postgre]: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection refused (0x0000274D/10061)
+	Is the server running on host &quot;localhost&quot; (::1) and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused (0x0000274D/10061)
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432?
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT "customer".*
+FROM "customer"
+LEFT JOIN "settlement" ON "customer"."id" = "settlement"."customer_id"
+LEFT JOIN "room" ON "settlement"."room_id" = "room"."id"', [], false)
+ 3 APPPATH\Models\CustomerModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(36): App\Models\CustomerModel->search_customer('', '', '', '')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->search_customer()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-27 08:51:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-27 08:51:24 --> Error connecting to the database: ErrorException: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection refused (0x0000274D/10061)
+	Is the server running on host &quot;localhost&quot; (::1) and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused (0x0000274D/10061)
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? in D:\curs_server\web_p\system\Database\Postgre\Connection.php:72
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_connect(): U...', 'D:\\curs_server\\...', 72)
+#1 D:\curs_server\web_p\system\Database\Postgre\Connection.php(72): pg_connect('host=localhost ...')
+#2 D:\curs_server\web_p\system\Database\BaseConnection.php(392): CodeIgniter\Database\Postgre\Connection->connect(false)
+#3 D:\curs_server\web_p\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 D:\curs_server\web_p\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT "type".*...', Array, false)
+#5 D:\curs_server\web_p\app\Models\TypeModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\curs_server\web_p\app\Controllers\roles_controllers\manager\RoomsController.php(21): App\Models\TypeModel->getTypes()
+#7 D:\curs_server\web_p\system\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\RoomsController->index()
+#8 D:\curs_server\web_p\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\RoomsController))
+#9 D:\curs_server\web_p\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\curs_server\web_p\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-12-27 08:51:24 --> Unable to connect to the database.
+Main connection [postgre]: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection refused (0x0000274D/10061)
+	Is the server running on host &quot;localhost&quot; (::1) and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused (0x0000274D/10061)
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432?
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT "type".*
+FROM "type"', [], false)
+ 3 APPPATH\Models\TypeModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\roles_controllers\manager\RoomsController.php(21): App\Models\TypeModel->getTypes()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\RoomsController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\RoomsController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-27 08:51:33 --> Error connecting to the database: ErrorException: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection refused (0x0000274D/10061)
+	Is the server running on host &quot;localhost&quot; (::1) and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused (0x0000274D/10061)
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? in D:\curs_server\web_p\system\Database\Postgre\Connection.php:72
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_connect(): U...', 'D:\\curs_server\\...', 72)
+#1 D:\curs_server\web_p\system\Database\Postgre\Connection.php(72): pg_connect('host=localhost ...')
+#2 D:\curs_server\web_p\system\Database\BaseConnection.php(392): CodeIgniter\Database\Postgre\Connection->connect(false)
+#3 D:\curs_server\web_p\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 D:\curs_server\web_p\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT "custome...', Array, false)
+#5 D:\curs_server\web_p\app\Models\CustomerModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\curs_server\web_p\app\Controllers\roles_controllers\manager\CustomersController.php(36): App\Models\CustomerModel->search_customer('', '', '', '')
+#7 D:\curs_server\web_p\system\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->search_customer()
+#8 D:\curs_server\web_p\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+#9 D:\curs_server\web_p\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\curs_server\web_p\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-12-27 08:51:33 --> Unable to connect to the database.
+Main connection [postgre]: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection refused (0x0000274D/10061)
+	Is the server running on host &quot;localhost&quot; (::1) and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused (0x0000274D/10061)
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432?
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT "customer".*
+FROM "customer"
+LEFT JOIN "settlement" ON "customer"."id" = "settlement"."customer_id"
+LEFT JOIN "room" ON "settlement"."room_id" = "room"."id"', [], false)
+ 3 APPPATH\Models\CustomerModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(36): App\Models\CustomerModel->search_customer('', '', '', '')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->search_customer()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-27 09:02:29 --> Undefined variable $service
+in APPPATH\Views\roles_view\manager\workers_upd.php on line 68.
+ 1 APPPATH\Views\roles_view\manager\workers_upd.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $service', 'D:\\curs_server\\web_p\\app\\Views\\roles_view\\manager\\workers_upd.php', 68)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\curs_server\\web_p\\app\\Views\\roles_view\\manager\\workers_upd.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('roles_view/manager/workers_upd', [], true)
+ 5 APPPATH\Controllers\roles_controllers\manager\WorkersController.php(84): view('roles_view/manager/workers_upd')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\WorkersController->update_worker()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\WorkersController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-27 12:56:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 12:56:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 12:56:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 12:56:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 12:56:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 12:56:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 12:56:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 12:57:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 12:57:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 12:57:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 12:57:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 12:57:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 12:57:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 12:57:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 12:57:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 12:57:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 12:57:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 12:57:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 12:57:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 12:57:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 12:57:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 12:57:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 12:57:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 12:57:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 12:57:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 15:45:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 15:45:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 15:46:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 15:46:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 15:46:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 15:46:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 15:46:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 15:46:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 15:46:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 15:46:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 15:46:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 15:46:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 15:49:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 15:49:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 15:50:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 15:50:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 15:50:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 15:50:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 15:50:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-27 15:50:34 --> syntax error, unexpected token ";"
+in APPPATH\Views\roles_view\manager\rooms_upd.php on line 7.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('roles_view/manager/rooms_upd', [], true)
+ 3 APPPATH\Controllers\roles_controllers\manager\RoomsController.php(54): view('roles_view/manager/rooms_upd', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\RoomsController->load_upd_view('1')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\RoomsController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-27 15:50:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 15:50:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 15:50:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-27 15:50:37 --> syntax error, unexpected token ";"
+in APPPATH\Views\roles_view\manager\rooms_upd.php on line 7.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('roles_view/manager/rooms_upd', [], true)
+ 3 APPPATH\Controllers\roles_controllers\manager\RoomsController.php(54): view('roles_view/manager/rooms_upd', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\RoomsController->load_upd_view('1')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\RoomsController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-27 15:50:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 15:50:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 15:50:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-27 15:50:45 --> syntax error, unexpected token ";"
+in APPPATH\Views\roles_view\manager\rooms_upd.php on line 7.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('roles_view/manager/rooms_upd', [], true)
+ 3 APPPATH\Controllers\roles_controllers\manager\RoomsController.php(54): view('roles_view/manager/rooms_upd', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\RoomsController->load_upd_view('1')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\RoomsController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-27 15:50:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 15:50:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 15:52:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 15:52:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 15:52:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 15:52:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 15:52:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 15:52:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 15:52:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 15:52:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 15:55:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-27 15:55:57 --> Cannot use App\Models\TypeModel as TypeModel because the name is already in use
+in APPPATH\Controllers\roles_controllers\manager\RoomsController.php on line 9.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-12-27 15:56:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 15:56:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 15:56:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 15:56:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 15:56:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 15:59:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-27 15:59:00 --> Undefined property: stdClass::$if
+in APPPATH\Views\roles_view\manager\rooms_upd.php on line 52.
+ 1 APPPATH\Views\roles_view\manager\rooms_upd.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$if', 'D:\\curs_server\\web_p\\app\\Views\\roles_view\\manager\\rooms_upd.php', 52)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\curs_server\\web_p\\app\\Views\\roles_view\\manager\\rooms_upd.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('roles_view/manager/rooms_upd', [], true)
+ 5 APPPATH\Controllers\roles_controllers\manager\RoomsController.php(55): view('roles_view/manager/rooms_upd', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\RoomsController->load_upd_view('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\RoomsController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-27 15:59:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 15:59:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 15:59:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 15:59:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 15:59:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 15:59:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 15:59:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-27 15:59:09 --> Undefined property: stdClass::$if
+in APPPATH\Views\roles_view\manager\rooms_upd.php on line 52.
+ 1 APPPATH\Views\roles_view\manager\rooms_upd.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$if', 'D:\\curs_server\\web_p\\app\\Views\\roles_view\\manager\\rooms_upd.php', 52)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\curs_server\\web_p\\app\\Views\\roles_view\\manager\\rooms_upd.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('roles_view/manager/rooms_upd', [], true)
+ 5 APPPATH\Controllers\roles_controllers\manager\RoomsController.php(55): view('roles_view/manager/rooms_upd', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\RoomsController->load_upd_view('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\RoomsController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-27 16:00:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-27 16:00:18 --> Undefined property: stdClass::$if
+in APPPATH\Views\roles_view\manager\rooms_upd.php on line 52.
+ 1 APPPATH\Views\roles_view\manager\rooms_upd.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$if', 'D:\\curs_server\\web_p\\app\\Views\\roles_view\\manager\\rooms_upd.php', 52)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\curs_server\\web_p\\app\\Views\\roles_view\\manager\\rooms_upd.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('roles_view/manager/rooms_upd', [], true)
+ 5 APPPATH\Controllers\roles_controllers\manager\RoomsController.php(55): view('roles_view/manager/rooms_upd', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\RoomsController->load_upd_view('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\RoomsController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-27 16:00:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-27 16:00:38 --> Undefined variable $id
+in APPPATH\Views\roles_view\manager\rooms_upd.php on line 52.
+ 1 APPPATH\Views\roles_view\manager\rooms_upd.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'D:\\curs_server\\web_p\\app\\Views\\roles_view\\manager\\rooms_upd.php', 52)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\curs_server\\web_p\\app\\Views\\roles_view\\manager\\rooms_upd.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('roles_view/manager/rooms_upd', [], true)
+ 5 APPPATH\Controllers\roles_controllers\manager\RoomsController.php(55): view('roles_view/manager/rooms_upd', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\RoomsController->load_upd_view('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\RoomsController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-27 16:02:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-27 16:02:17 --> Undefined variable $t_name
+in APPPATH\Views\roles_view\manager\rooms_upd.php on line 52.
+ 1 APPPATH\Views\roles_view\manager\rooms_upd.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $t_name', 'D:\\curs_server\\web_p\\app\\Views\\roles_view\\manager\\rooms_upd.php', 52)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\curs_server\\web_p\\app\\Views\\roles_view\\manager\\rooms_upd.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('roles_view/manager/rooms_upd', [], true)
+ 5 APPPATH\Controllers\roles_controllers\manager\RoomsController.php(55): view('roles_view/manager/rooms_upd', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\RoomsController->load_upd_view('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\RoomsController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-27 16:02:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 16:02:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 16:03:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 16:03:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 16:03:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 16:03:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 16:04:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-27 16:04:58 --> Undefined property: stdClass::$cost
+in APPPATH\Views\roles_view\manager\rooms_upd.php on line 42.
+ 1 APPPATH\Views\roles_view\manager\rooms_upd.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$cost', 'D:\\curs_server\\web_p\\app\\Views\\roles_view\\manager\\rooms_upd.php', 42)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\curs_server\\web_p\\app\\Views\\roles_view\\manager\\rooms_upd.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('roles_view/manager/rooms_upd', [], true)
+ 5 APPPATH\Controllers\roles_controllers\manager\RoomsController.php(55): view('roles_view/manager/rooms_upd', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\RoomsController->load_upd_view('2')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\RoomsController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-27 16:05:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 16:05:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 16:05:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 16:05:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 16:06:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 16:06:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 16:16:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 16:16:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 16:16:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-27 16:16:59 --> Undefined variable $rooms
+in APPPATH\Views\roles_view\manager\rooms_upd.php on line 60.
+ 1 APPPATH\Views\roles_view\manager\rooms_upd.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rooms', 'D:\\curs_server\\web_p\\app\\Views\\roles_view\\manager\\rooms_upd.php', 60)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\curs_server\\web_p\\app\\Views\\roles_view\\manager\\rooms_upd.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('roles_view/manager/rooms_upd', [], true)
+ 5 APPPATH\Controllers\roles_controllers\manager\RoomsController.php(55): view('roles_view/manager/rooms_upd', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\RoomsController->load_upd_view('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\RoomsController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-27 16:17:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 16:17:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 16:18:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-27 16:18:55 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\roles_view\manager\rooms_upd.php on line 60.
+ 1 APPPATH\Views\roles_view\manager\rooms_upd.php(60): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\curs_server\\web_p\\app\\Views\\roles_view\\manager\\rooms_upd.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('roles_view/manager/rooms_upd', [], true)
+ 5 APPPATH\Controllers\roles_controllers\manager\RoomsController.php(55): view('roles_view/manager/rooms_upd', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\RoomsController->load_upd_view('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\RoomsController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-27 16:18:55 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\roles_view\manager\rooms_upd.php on line 64.
+ 1 APPPATH\Views\roles_view\manager\rooms_upd.php(64): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\curs_server\\web_p\\app\\Views\\roles_view\\manager\\rooms_upd.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('roles_view/manager/rooms_upd', [], true)
+ 5 APPPATH\Controllers\roles_controllers\manager\RoomsController.php(55): view('roles_view/manager/rooms_upd', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\RoomsController->load_upd_view('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\RoomsController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-27 16:19:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 16:19:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 16:19:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-27 16:19:29 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\roles_view\manager\rooms_upd.php on line 60.
+ 1 APPPATH\Views\roles_view\manager\rooms_upd.php(60): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\curs_server\\web_p\\app\\Views\\roles_view\\manager\\rooms_upd.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('roles_view/manager/rooms_upd', [], true)
+ 5 APPPATH\Controllers\roles_controllers\manager\RoomsController.php(55): view('roles_view/manager/rooms_upd', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\RoomsController->load_upd_view('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\RoomsController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-27 16:19:29 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\roles_view\manager\rooms_upd.php on line 64.
+ 1 APPPATH\Views\roles_view\manager\rooms_upd.php(64): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\curs_server\\web_p\\app\\Views\\roles_view\\manager\\rooms_upd.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('roles_view/manager/rooms_upd', [], true)
+ 5 APPPATH\Controllers\roles_controllers\manager\RoomsController.php(55): view('roles_view/manager/rooms_upd', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\RoomsController->load_upd_view('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\RoomsController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-27 16:20:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-27 16:20:15 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\roles_view\manager\rooms_upd.php on line 60.
+ 1 APPPATH\Views\roles_view\manager\rooms_upd.php(60): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\curs_server\\web_p\\app\\Views\\roles_view\\manager\\rooms_upd.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('roles_view/manager/rooms_upd', [], true)
+ 5 APPPATH\Controllers\roles_controllers\manager\RoomsController.php(56): view('roles_view/manager/rooms_upd', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\RoomsController->load_upd_view('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\RoomsController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-27 16:20:15 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\roles_view\manager\rooms_upd.php on line 64.
+ 1 APPPATH\Views\roles_view\manager\rooms_upd.php(64): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\curs_server\\web_p\\app\\Views\\roles_view\\manager\\rooms_upd.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('roles_view/manager/rooms_upd', [], true)
+ 5 APPPATH\Controllers\roles_controllers\manager\RoomsController.php(56): view('roles_view/manager/rooms_upd', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\RoomsController->load_upd_view('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\RoomsController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-27 16:25:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 16:25:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 16:25:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 16:25:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 16:26:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 16:26:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 16:26:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 16:26:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 16:26:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 16:29:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 16:29:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 16:29:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 16:29:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 16:29:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 16:30:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 16:30:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 16:30:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 16:30:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 16:30:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 16:30:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 16:30:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 16:30:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-27 16:30:28 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 96.
+ 1 APPPATH\Models\RoomModel.php(96): pg_escape_string('1')
+ 2 APPPATH\Controllers\roles_controllers\manager\RoomsController.php(53): App\Models\RoomModel->get_one('1')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\RoomsController->load_upd_view('1')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\RoomsController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-27 16:30:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 16:30:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 16:30:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-27 16:30:44 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 96.
+ 1 APPPATH\Models\RoomModel.php(96): pg_escape_string('1')
+ 2 APPPATH\Controllers\roles_controllers\manager\RoomsController.php(53): App\Models\RoomModel->get_one('1')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\RoomsController->load_upd_view('1')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\RoomsController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-27 16:30:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 16:30:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 16:39:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 16:39:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 16:40:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 16:40:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 16:40:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 16:40:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 16:40:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 16:40:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 16:40:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

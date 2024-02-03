@@ -1,0 +1,1418 @@
+INFO - 2023-12-31 01:42:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:42:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:42:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:42:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:42:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:42:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:42:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:43:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-31 01:43:18 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 34.
+ 1 APPPATH\Models\CustomerModel.php(34): pg_escape_string('12342342334')
+ 2 APPPATH\Controllers\roles_controllers\administrator\RoomsRegisterController.php(52): App\Models\CustomerModel->search_customer('', '', '', '12342342334')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsRegisterController->phone_search()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsRegisterController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-31 01:43:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:43:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-31 01:43:41 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 34.
+ 1 APPPATH\Models\CustomerModel.php(34): pg_escape_string('380927461234')
+ 2 APPPATH\Controllers\roles_controllers\administrator\RoomsRegisterController.php(52): App\Models\CustomerModel->search_customer('', '', '', '380927461234')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsRegisterController->phone_search()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsRegisterController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-31 01:43:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:43:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-31 01:43:47 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 78.
+ 1 APPPATH\Models\RoomModel.php(78): pg_escape_string('2024-01-07')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(3505): App\Models\RoomModel->App\Models\{closure}(Object(CodeIgniter\Database\Postgre\Builder))
+ 3 SYSTEMPATH\Database\BaseBuilder.php(955): CodeIgniter\Database\BaseBuilder->buildSubquery(Object(CodeIgniter\Database\Postgre\Builder), true)
+ 4 SYSTEMPATH\Database\BaseBuilder.php(852): CodeIgniter\Database\BaseBuilder->_whereIn('"room"."id"', Object(Closure), ' NOT', 'AND ', true)
+ 5 APPPATH\Models\RoomModel.php(75): CodeIgniter\Database\BaseBuilder->whereNotIn('room.id', Object(Closure))
+ 6 APPPATH\Controllers\roles_controllers\administrator\RoomsRegisterController.php(62): App\Models\RoomModel->searchFreeRoom('0', '', '', '', '2024-01-01', '2024-01-07')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsRegisterController->search_room()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsRegisterController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 01:43:47 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 79.
+ 1 APPPATH\Models\RoomModel.php(79): pg_escape_string('2024-01-01')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(3505): App\Models\RoomModel->App\Models\{closure}(Object(CodeIgniter\Database\Postgre\Builder))
+ 3 SYSTEMPATH\Database\BaseBuilder.php(955): CodeIgniter\Database\BaseBuilder->buildSubquery(Object(CodeIgniter\Database\Postgre\Builder), true)
+ 4 SYSTEMPATH\Database\BaseBuilder.php(852): CodeIgniter\Database\BaseBuilder->_whereIn('"room"."id"', Object(Closure), ' NOT', 'AND ', true)
+ 5 APPPATH\Models\RoomModel.php(75): CodeIgniter\Database\BaseBuilder->whereNotIn('room.id', Object(Closure))
+ 6 APPPATH\Controllers\roles_controllers\administrator\RoomsRegisterController.php(62): App\Models\RoomModel->searchFreeRoom('0', '', '', '', '2024-01-01', '2024-01-07')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsRegisterController->search_room()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsRegisterController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-31 01:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-31 01:44:22 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 34.
+ 1 APPPATH\Models\CustomerModel.php(34): pg_escape_string('380927461234')
+ 2 APPPATH\Controllers\roles_controllers\administrator\RoomsRegisterController.php(74): App\Models\CustomerModel->search_customer('', '', '', '380927461234')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsRegisterController->add_settlement()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsRegisterController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 01:44:22 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\SettlementModel.php on line 33.
+ 1 APPPATH\Models\SettlementModel.php(33): pg_escape_string('1')
+ 2 APPPATH\Controllers\roles_controllers\administrator\RoomsRegisterController.php(76): App\Models\SettlementModel->addSettlement('1', '2', '2024-01-01', '2024-01-07', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsRegisterController->add_settlement()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsRegisterController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 01:44:22 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\SettlementModel.php on line 34.
+ 1 APPPATH\Models\SettlementModel.php(34): pg_escape_string('2')
+ 2 APPPATH\Controllers\roles_controllers\administrator\RoomsRegisterController.php(76): App\Models\SettlementModel->addSettlement('1', '2', '2024-01-01', '2024-01-07', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsRegisterController->add_settlement()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsRegisterController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 01:44:22 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\SettlementModel.php on line 35.
+ 1 APPPATH\Models\SettlementModel.php(35): pg_escape_string('2024-01-01')
+ 2 APPPATH\Controllers\roles_controllers\administrator\RoomsRegisterController.php(76): App\Models\SettlementModel->addSettlement('1', '2', '2024-01-01', '2024-01-07', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsRegisterController->add_settlement()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsRegisterController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 01:44:22 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\SettlementModel.php on line 36.
+ 1 APPPATH\Models\SettlementModel.php(36): pg_escape_string('2024-01-07')
+ 2 APPPATH\Controllers\roles_controllers\administrator\RoomsRegisterController.php(76): App\Models\SettlementModel->addSettlement('1', '2', '2024-01-01', '2024-01-07', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsRegisterController->add_settlement()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsRegisterController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 01:44:22 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\SettlementModel.php on line 37.
+ 1 APPPATH\Models\SettlementModel.php(37): pg_escape_string('')
+ 2 APPPATH\Controllers\roles_controllers\administrator\RoomsRegisterController.php(76): App\Models\SettlementModel->addSettlement('1', '2', '2024-01-01', '2024-01-07', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsRegisterController->add_settlement()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsRegisterController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-31 01:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-31 01:44:22 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 78.
+ 1 APPPATH\Models\RoomModel.php(78): pg_escape_string('2024-01-07')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(3505): App\Models\RoomModel->App\Models\{closure}(Object(CodeIgniter\Database\Postgre\Builder))
+ 3 SYSTEMPATH\Database\BaseBuilder.php(955): CodeIgniter\Database\BaseBuilder->buildSubquery(Object(CodeIgniter\Database\Postgre\Builder), true)
+ 4 SYSTEMPATH\Database\BaseBuilder.php(852): CodeIgniter\Database\BaseBuilder->_whereIn('"room"."id"', Object(Closure), ' NOT', 'AND ', true)
+ 5 APPPATH\Models\RoomModel.php(75): CodeIgniter\Database\BaseBuilder->whereNotIn('room.id', Object(Closure))
+ 6 APPPATH\Controllers\roles_controllers\administrator\RoomsRegisterController.php(62): App\Models\RoomModel->searchFreeRoom('0', '', '', '', '2024-01-01', '2024-01-07')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsRegisterController->search_room()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsRegisterController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 01:44:22 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 79.
+ 1 APPPATH\Models\RoomModel.php(79): pg_escape_string('2024-01-01')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(3505): App\Models\RoomModel->App\Models\{closure}(Object(CodeIgniter\Database\Postgre\Builder))
+ 3 SYSTEMPATH\Database\BaseBuilder.php(955): CodeIgniter\Database\BaseBuilder->buildSubquery(Object(CodeIgniter\Database\Postgre\Builder), true)
+ 4 SYSTEMPATH\Database\BaseBuilder.php(852): CodeIgniter\Database\BaseBuilder->_whereIn('"room"."id"', Object(Closure), ' NOT', 'AND ', true)
+ 5 APPPATH\Models\RoomModel.php(75): CodeIgniter\Database\BaseBuilder->whereNotIn('room.id', Object(Closure))
+ 6 APPPATH\Controllers\roles_controllers\administrator\RoomsRegisterController.php(62): App\Models\RoomModel->searchFreeRoom('0', '', '', '', '2024-01-01', '2024-01-07')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsRegisterController->search_room()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsRegisterController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-31 01:44:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-31 01:44:28 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 78.
+ 1 APPPATH\Models\RoomModel.php(78): pg_escape_string('2024-01-07')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(3505): App\Models\RoomModel->App\Models\{closure}(Object(CodeIgniter\Database\Postgre\Builder))
+ 3 SYSTEMPATH\Database\BaseBuilder.php(955): CodeIgniter\Database\BaseBuilder->buildSubquery(Object(CodeIgniter\Database\Postgre\Builder), true)
+ 4 SYSTEMPATH\Database\BaseBuilder.php(852): CodeIgniter\Database\BaseBuilder->_whereIn('"room"."id"', Object(Closure), ' NOT', 'AND ', true)
+ 5 APPPATH\Models\RoomModel.php(75): CodeIgniter\Database\BaseBuilder->whereNotIn('room.id', Object(Closure))
+ 6 APPPATH\Controllers\roles_controllers\administrator\RoomsRegisterController.php(62): App\Models\RoomModel->searchFreeRoom('0', '', '', '', '2024-01-08', '2024-01-07')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsRegisterController->search_room()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsRegisterController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 01:44:28 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 79.
+ 1 APPPATH\Models\RoomModel.php(79): pg_escape_string('2024-01-08')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(3505): App\Models\RoomModel->App\Models\{closure}(Object(CodeIgniter\Database\Postgre\Builder))
+ 3 SYSTEMPATH\Database\BaseBuilder.php(955): CodeIgniter\Database\BaseBuilder->buildSubquery(Object(CodeIgniter\Database\Postgre\Builder), true)
+ 4 SYSTEMPATH\Database\BaseBuilder.php(852): CodeIgniter\Database\BaseBuilder->_whereIn('"room"."id"', Object(Closure), ' NOT', 'AND ', true)
+ 5 APPPATH\Models\RoomModel.php(75): CodeIgniter\Database\BaseBuilder->whereNotIn('room.id', Object(Closure))
+ 6 APPPATH\Controllers\roles_controllers\administrator\RoomsRegisterController.php(62): App\Models\RoomModel->searchFreeRoom('0', '', '', '', '2024-01-08', '2024-01-07')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsRegisterController->search_room()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsRegisterController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-31 01:44:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-31 01:44:30 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 78.
+ 1 APPPATH\Models\RoomModel.php(78): pg_escape_string('2024-01-14')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(3505): App\Models\RoomModel->App\Models\{closure}(Object(CodeIgniter\Database\Postgre\Builder))
+ 3 SYSTEMPATH\Database\BaseBuilder.php(955): CodeIgniter\Database\BaseBuilder->buildSubquery(Object(CodeIgniter\Database\Postgre\Builder), true)
+ 4 SYSTEMPATH\Database\BaseBuilder.php(852): CodeIgniter\Database\BaseBuilder->_whereIn('"room"."id"', Object(Closure), ' NOT', 'AND ', true)
+ 5 APPPATH\Models\RoomModel.php(75): CodeIgniter\Database\BaseBuilder->whereNotIn('room.id', Object(Closure))
+ 6 APPPATH\Controllers\roles_controllers\administrator\RoomsRegisterController.php(62): App\Models\RoomModel->searchFreeRoom('0', '', '', '', '2024-01-08', '2024-01-14')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsRegisterController->search_room()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsRegisterController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 01:44:30 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 79.
+ 1 APPPATH\Models\RoomModel.php(79): pg_escape_string('2024-01-08')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(3505): App\Models\RoomModel->App\Models\{closure}(Object(CodeIgniter\Database\Postgre\Builder))
+ 3 SYSTEMPATH\Database\BaseBuilder.php(955): CodeIgniter\Database\BaseBuilder->buildSubquery(Object(CodeIgniter\Database\Postgre\Builder), true)
+ 4 SYSTEMPATH\Database\BaseBuilder.php(852): CodeIgniter\Database\BaseBuilder->_whereIn('"room"."id"', Object(Closure), ' NOT', 'AND ', true)
+ 5 APPPATH\Models\RoomModel.php(75): CodeIgniter\Database\BaseBuilder->whereNotIn('room.id', Object(Closure))
+ 6 APPPATH\Controllers\roles_controllers\administrator\RoomsRegisterController.php(62): App\Models\RoomModel->searchFreeRoom('0', '', '', '', '2024-01-08', '2024-01-14')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsRegisterController->search_room()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsRegisterController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-31 01:44:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-31 01:44:33 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 34.
+ 1 APPPATH\Models\CustomerModel.php(34): pg_escape_string('380927461234')
+ 2 APPPATH\Controllers\roles_controllers\administrator\RoomsRegisterController.php(74): App\Models\CustomerModel->search_customer('', '', '', '380927461234')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsRegisterController->add_settlement()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsRegisterController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 01:44:33 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\SettlementModel.php on line 33.
+ 1 APPPATH\Models\SettlementModel.php(33): pg_escape_string('2')
+ 2 APPPATH\Controllers\roles_controllers\administrator\RoomsRegisterController.php(76): App\Models\SettlementModel->addSettlement('2', '2', '2024-01-08', '2024-01-14', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsRegisterController->add_settlement()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsRegisterController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 01:44:33 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\SettlementModel.php on line 34.
+ 1 APPPATH\Models\SettlementModel.php(34): pg_escape_string('2')
+ 2 APPPATH\Controllers\roles_controllers\administrator\RoomsRegisterController.php(76): App\Models\SettlementModel->addSettlement('2', '2', '2024-01-08', '2024-01-14', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsRegisterController->add_settlement()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsRegisterController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 01:44:33 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\SettlementModel.php on line 35.
+ 1 APPPATH\Models\SettlementModel.php(35): pg_escape_string('2024-01-08')
+ 2 APPPATH\Controllers\roles_controllers\administrator\RoomsRegisterController.php(76): App\Models\SettlementModel->addSettlement('2', '2', '2024-01-08', '2024-01-14', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsRegisterController->add_settlement()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsRegisterController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 01:44:33 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\SettlementModel.php on line 36.
+ 1 APPPATH\Models\SettlementModel.php(36): pg_escape_string('2024-01-14')
+ 2 APPPATH\Controllers\roles_controllers\administrator\RoomsRegisterController.php(76): App\Models\SettlementModel->addSettlement('2', '2', '2024-01-08', '2024-01-14', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsRegisterController->add_settlement()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsRegisterController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 01:44:33 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\SettlementModel.php on line 37.
+ 1 APPPATH\Models\SettlementModel.php(37): pg_escape_string('')
+ 2 APPPATH\Controllers\roles_controllers\administrator\RoomsRegisterController.php(76): App\Models\SettlementModel->addSettlement('2', '2', '2024-01-08', '2024-01-14', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsRegisterController->add_settlement()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsRegisterController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-31 01:44:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-31 01:44:33 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 78.
+ 1 APPPATH\Models\RoomModel.php(78): pg_escape_string('2024-01-14')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(3505): App\Models\RoomModel->App\Models\{closure}(Object(CodeIgniter\Database\Postgre\Builder))
+ 3 SYSTEMPATH\Database\BaseBuilder.php(955): CodeIgniter\Database\BaseBuilder->buildSubquery(Object(CodeIgniter\Database\Postgre\Builder), true)
+ 4 SYSTEMPATH\Database\BaseBuilder.php(852): CodeIgniter\Database\BaseBuilder->_whereIn('"room"."id"', Object(Closure), ' NOT', 'AND ', true)
+ 5 APPPATH\Models\RoomModel.php(75): CodeIgniter\Database\BaseBuilder->whereNotIn('room.id', Object(Closure))
+ 6 APPPATH\Controllers\roles_controllers\administrator\RoomsRegisterController.php(62): App\Models\RoomModel->searchFreeRoom('0', '', '', '', '2024-01-08', '2024-01-14')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsRegisterController->search_room()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsRegisterController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 01:44:33 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 79.
+ 1 APPPATH\Models\RoomModel.php(79): pg_escape_string('2024-01-08')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(3505): App\Models\RoomModel->App\Models\{closure}(Object(CodeIgniter\Database\Postgre\Builder))
+ 3 SYSTEMPATH\Database\BaseBuilder.php(955): CodeIgniter\Database\BaseBuilder->buildSubquery(Object(CodeIgniter\Database\Postgre\Builder), true)
+ 4 SYSTEMPATH\Database\BaseBuilder.php(852): CodeIgniter\Database\BaseBuilder->_whereIn('"room"."id"', Object(Closure), ' NOT', 'AND ', true)
+ 5 APPPATH\Models\RoomModel.php(75): CodeIgniter\Database\BaseBuilder->whereNotIn('room.id', Object(Closure))
+ 6 APPPATH\Controllers\roles_controllers\administrator\RoomsRegisterController.php(62): App\Models\RoomModel->searchFreeRoom('0', '', '', '', '2024-01-08', '2024-01-14')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsRegisterController->search_room()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsRegisterController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-31 01:44:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:44:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-31 01:44:48 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\UserModel.php on line 41.
+ 1 APPPATH\Models\UserModel.php(41): pg_escape_string('3')
+ 2 APPPATH\Controllers\roles_controllers\administrator\OrderCreateController.php(26): App\Models\UserModel->search_worker('', '', '', '', 3)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\OrderCreateController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\OrderCreateController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-31 01:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-31 01:46:02 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 94.
+ 1 APPPATH\Models\RoomModel.php(94): pg_escape_string('102')
+ 2 APPPATH\Controllers\roles_controllers\administrator\OrderCreateController.php(40): App\Models\RoomModel->getInfo('102', 0, null, null, null)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\OrderCreateController->create_order()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\OrderCreateController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-31 01:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:46:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-31 01:46:42 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\UserModel.php on line 41.
+ 1 APPPATH\Models\UserModel.php(41): pg_escape_string('3')
+ 2 APPPATH\Controllers\roles_controllers\administrator\OrderCreateController.php(26): App\Models\UserModel->search_worker('', '', '', '', 3)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\OrderCreateController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\OrderCreateController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-31 01:46:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:46:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:46:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:46:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:46:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:46:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:47:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:47:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:47:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:47:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:47:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:47:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:47:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:47:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:48:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:48:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:48:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:48:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:48:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:48:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:48:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:48:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:48:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:48:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:48:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:49:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:49:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:49:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:49:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:49:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:49:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:49:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:49:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:49:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:49:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:49:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:49:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:49:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:49:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:49:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:49:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:49:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:49:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-31 01:49:59 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 78.
+ 1 APPPATH\Models\RoomModel.php(78): pg_escape_string('2024-01-01')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(3505): App\Models\RoomModel->App\Models\{closure}(Object(CodeIgniter\Database\Postgre\Builder))
+ 3 SYSTEMPATH\Database\BaseBuilder.php(955): CodeIgniter\Database\BaseBuilder->buildSubquery(Object(CodeIgniter\Database\Postgre\Builder), true)
+ 4 SYSTEMPATH\Database\BaseBuilder.php(852): CodeIgniter\Database\BaseBuilder->_whereIn('"room"."id"', Object(Closure), ' NOT', 'AND ', true)
+ 5 APPPATH\Models\RoomModel.php(75): CodeIgniter\Database\BaseBuilder->whereNotIn('room.id', Object(Closure))
+ 6 APPPATH\Controllers\roles_controllers\administrator\RoomsRegisterController.php(62): App\Models\RoomModel->searchFreeRoom('0', '', '', '', '2023-12-31', '2024-01-01')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsRegisterController->search_room()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsRegisterController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 01:49:59 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 79.
+ 1 APPPATH\Models\RoomModel.php(79): pg_escape_string('2023-12-31')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(3505): App\Models\RoomModel->App\Models\{closure}(Object(CodeIgniter\Database\Postgre\Builder))
+ 3 SYSTEMPATH\Database\BaseBuilder.php(955): CodeIgniter\Database\BaseBuilder->buildSubquery(Object(CodeIgniter\Database\Postgre\Builder), true)
+ 4 SYSTEMPATH\Database\BaseBuilder.php(852): CodeIgniter\Database\BaseBuilder->_whereIn('"room"."id"', Object(Closure), ' NOT', 'AND ', true)
+ 5 APPPATH\Models\RoomModel.php(75): CodeIgniter\Database\BaseBuilder->whereNotIn('room.id', Object(Closure))
+ 6 APPPATH\Controllers\roles_controllers\administrator\RoomsRegisterController.php(62): App\Models\RoomModel->searchFreeRoom('0', '', '', '', '2023-12-31', '2024-01-01')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsRegisterController->search_room()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsRegisterController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-31 01:50:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-31 01:50:04 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 34.
+ 1 APPPATH\Models\CustomerModel.php(34): pg_escape_string('1')
+ 2 APPPATH\Controllers\roles_controllers\administrator\RoomsRegisterController.php(52): App\Models\CustomerModel->search_customer('', '', '', '1')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsRegisterController->phone_search()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsRegisterController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-31 01:50:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-31 01:50:05 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 34.
+ 1 APPPATH\Models\CustomerModel.php(34): pg_escape_string('12')
+ 2 APPPATH\Controllers\roles_controllers\administrator\RoomsRegisterController.php(52): App\Models\CustomerModel->search_customer('', '', '', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsRegisterController->phone_search()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsRegisterController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-31 01:50:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-31 01:50:15 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 34.
+ 1 APPPATH\Models\CustomerModel.php(34): pg_escape_string('12')
+ 2 APPPATH\Controllers\roles_controllers\administrator\RoomsRegisterController.php(74): App\Models\CustomerModel->search_customer('', '', '', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsRegisterController->add_settlement()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsRegisterController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 01:50:15 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\SettlementModel.php on line 33.
+ 1 APPPATH\Models\SettlementModel.php(33): pg_escape_string('2')
+ 2 APPPATH\Controllers\roles_controllers\administrator\RoomsRegisterController.php(76): App\Models\SettlementModel->addSettlement('2', '12', '2023-12-31', '2024-01-01', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsRegisterController->add_settlement()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsRegisterController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 01:50:15 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\SettlementModel.php on line 34.
+ 1 APPPATH\Models\SettlementModel.php(34): pg_escape_string('12')
+ 2 APPPATH\Controllers\roles_controllers\administrator\RoomsRegisterController.php(76): App\Models\SettlementModel->addSettlement('2', '12', '2023-12-31', '2024-01-01', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsRegisterController->add_settlement()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsRegisterController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 01:50:15 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\SettlementModel.php on line 35.
+ 1 APPPATH\Models\SettlementModel.php(35): pg_escape_string('2023-12-31')
+ 2 APPPATH\Controllers\roles_controllers\administrator\RoomsRegisterController.php(76): App\Models\SettlementModel->addSettlement('2', '12', '2023-12-31', '2024-01-01', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsRegisterController->add_settlement()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsRegisterController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 01:50:15 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\SettlementModel.php on line 36.
+ 1 APPPATH\Models\SettlementModel.php(36): pg_escape_string('2024-01-01')
+ 2 APPPATH\Controllers\roles_controllers\administrator\RoomsRegisterController.php(76): App\Models\SettlementModel->addSettlement('2', '12', '2023-12-31', '2024-01-01', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsRegisterController->add_settlement()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsRegisterController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 01:50:15 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\SettlementModel.php on line 37.
+ 1 APPPATH\Models\SettlementModel.php(37): pg_escape_string('')
+ 2 APPPATH\Controllers\roles_controllers\administrator\RoomsRegisterController.php(76): App\Models\SettlementModel->addSettlement('2', '12', '2023-12-31', '2024-01-01', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsRegisterController->add_settlement()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsRegisterController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-31 01:50:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-31 01:50:16 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 78.
+ 1 APPPATH\Models\RoomModel.php(78): pg_escape_string('2024-01-01')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(3505): App\Models\RoomModel->App\Models\{closure}(Object(CodeIgniter\Database\Postgre\Builder))
+ 3 SYSTEMPATH\Database\BaseBuilder.php(955): CodeIgniter\Database\BaseBuilder->buildSubquery(Object(CodeIgniter\Database\Postgre\Builder), true)
+ 4 SYSTEMPATH\Database\BaseBuilder.php(852): CodeIgniter\Database\BaseBuilder->_whereIn('"room"."id"', Object(Closure), ' NOT', 'AND ', true)
+ 5 APPPATH\Models\RoomModel.php(75): CodeIgniter\Database\BaseBuilder->whereNotIn('room.id', Object(Closure))
+ 6 APPPATH\Controllers\roles_controllers\administrator\RoomsRegisterController.php(62): App\Models\RoomModel->searchFreeRoom('0', '', '', '', '2023-12-31', '2024-01-01')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsRegisterController->search_room()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsRegisterController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 01:50:16 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 79.
+ 1 APPPATH\Models\RoomModel.php(79): pg_escape_string('2023-12-31')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(3505): App\Models\RoomModel->App\Models\{closure}(Object(CodeIgniter\Database\Postgre\Builder))
+ 3 SYSTEMPATH\Database\BaseBuilder.php(955): CodeIgniter\Database\BaseBuilder->buildSubquery(Object(CodeIgniter\Database\Postgre\Builder), true)
+ 4 SYSTEMPATH\Database\BaseBuilder.php(852): CodeIgniter\Database\BaseBuilder->_whereIn('"room"."id"', Object(Closure), ' NOT', 'AND ', true)
+ 5 APPPATH\Models\RoomModel.php(75): CodeIgniter\Database\BaseBuilder->whereNotIn('room.id', Object(Closure))
+ 6 APPPATH\Controllers\roles_controllers\administrator\RoomsRegisterController.php(62): App\Models\RoomModel->searchFreeRoom('0', '', '', '', '2023-12-31', '2024-01-01')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\RoomsRegisterController->search_room()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\RoomsRegisterController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-31 01:50:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:50:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:50:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:50:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:50:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:50:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:50:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:50:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:50:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:50:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:50:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:51:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:51:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:51:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:51:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:52:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:52:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:52:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:52:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:52:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:52:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:52:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:52:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:52:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:52:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:52:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:52:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:52:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:52:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:52:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:52:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:52:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:52:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:52:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:52:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:52:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:52:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:53:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:53:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:53:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:53:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:53:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:53:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-31 01:53:49 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 54.
+ 1 APPPATH\Models\CustomerModel.php(54): pg_escape_string('яівмпіваяпівая')
+ 2 APPPATH\Controllers\roles_controllers\administrator\CustomersController.php(48): App\Models\CustomerModel->add_customer('яівмпіваяпівая', 'япмваіяіпвам', '3кфквуп имфке', '35445675675467567654', '543635675656445673546546', 'иіупкенуикеінпикеіун')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\CustomersController->add_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 01:53:49 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 55.
+ 1 APPPATH\Models\CustomerModel.php(55): pg_escape_string('япмваіяіпвам')
+ 2 APPPATH\Controllers\roles_controllers\administrator\CustomersController.php(48): App\Models\CustomerModel->add_customer('яівмпіваяпівая', 'япмваіяіпвам', '3кфквуп имфке', '35445675675467567654', '543635675656445673546546', 'иіупкенуикеінпикеіун')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\CustomersController->add_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 01:53:49 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 56.
+ 1 APPPATH\Models\CustomerModel.php(56): pg_escape_string('3кфквуп имфке')
+ 2 APPPATH\Controllers\roles_controllers\administrator\CustomersController.php(48): App\Models\CustomerModel->add_customer('яівмпіваяпівая', 'япмваіяіпвам', '3кфквуп имфке', '35445675675467567654', '543635675656445673546546', 'иіупкенуикеінпикеіун')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\CustomersController->add_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 01:53:49 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 57.
+ 1 APPPATH\Models\CustomerModel.php(57): pg_escape_string('35445675675467567654')
+ 2 APPPATH\Controllers\roles_controllers\administrator\CustomersController.php(48): App\Models\CustomerModel->add_customer('яівмпіваяпівая', 'япмваіяіпвам', '3кфквуп имфке', '35445675675467567654', '543635675656445673546546', 'иіупкенуикеінпикеіун')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\CustomersController->add_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 01:53:49 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 58.
+ 1 APPPATH\Models\CustomerModel.php(58): pg_escape_string('543635675656445673546546')
+ 2 APPPATH\Controllers\roles_controllers\administrator\CustomersController.php(48): App\Models\CustomerModel->add_customer('яівмпіваяпівая', 'япмваіяіпвам', '3кфквуп имфке', '35445675675467567654', '543635675656445673546546', 'иіупкенуикеінпикеіун')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\CustomersController->add_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 01:53:49 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 59.
+ 1 APPPATH\Models\CustomerModel.php(59): pg_escape_string('иіупкенуикеінпикеіун')
+ 2 APPPATH\Controllers\roles_controllers\administrator\CustomersController.php(48): App\Models\CustomerModel->add_customer('яівмпіваяпівая', 'япмваіяіпвам', '3кфквуп имфке', '35445675675467567654', '543635675656445673546546', 'иіупкенуикеінпикеіун')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\CustomersController->add_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-31 01:53:49 --> ErrorException: pg_query(): Query failed: ПОМИЛКА:  значення &quot;35445675675467567654&quot; поза діапазоном для типу bigint
+LINE 1: ...яівмпіваяпівая', 'япмваіяіпвам', '3кфквуп имфке', '354456756...
+                                                             ^ in D:\curs_server\web_p\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\curs_server\\...', 187)
+#1 D:\curs_server\web_p\system\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'INSERT INTO "cu...')
+#2 D:\curs_server\web_p\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "cu...')
+#3 D:\curs_server\web_p\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "cu...')
+#4 D:\curs_server\web_p\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO "cu...', Array, false)
+#5 D:\curs_server\web_p\app\Models\CustomerModel.php(53): CodeIgniter\Database\BaseBuilder->insert(Array)
+#6 D:\curs_server\web_p\app\Controllers\roles_controllers\administrator\CustomersController.php(48): App\Models\CustomerModel->add_customer('\xD1\x8F\xD1\x96\xD0\xB2\xD0\xBC\xD0\xBF\xD1\x96\xD0\xB2\xD0...', '\xD1\x8F\xD0\xBF\xD0\xBC\xD0\xB2\xD0\xB0\xD1\x96\xD1\x8F\xD1...', '3\xD0\xBA\xD1\x84\xD0\xBA\xD0\xB2\xD1\x83\xD0\xBF \xD0...', '354456756754675...', '543635675656445...', '\xD0\xB8\xD1\x96\xD1\x83\xD0\xBF\xD0\xBA\xD0\xB5\xD0\xBD\xD1...')
+#7 D:\curs_server\web_p\system\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\CustomersController->add_customer()
+#8 D:\curs_server\web_p\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\CustomersController))
+#9 D:\curs_server\web_p\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\curs_server\web_p\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-12-31 01:53:49 --> pg_query(): Query failed: ПОМИЛКА:  значення &quot;35445675675467567654&quot; поза діапазоном для типу bigint
+LINE 1: ...яівмпіваяпівая', 'япмваіяіпвам', '3кфквуп имфке', '354456756...
+                                                             ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO "customer" ("first_name", "middle_name", "last_name", "phone_number", "document_num", "pseudonym") VALUES (:first_name:, :middle_name:, :last_name:, :phone_number:, :document_num:, :pseudonym:)', [...], false)
+ 2 APPPATH\Models\CustomerModel.php(53): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\roles_controllers\administrator\CustomersController.php(48): App\Models\CustomerModel->add_customer('яівмпіваяпівая', 'япмваіяіпвам', '3кфквуп имфке', '35445675675467567654', '543635675656445673546546', 'иіупкенуикеінпикеіун')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\CustomersController->add_customer()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\CustomersController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-31 01:54:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-31 01:54:11 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 54.
+ 1 APPPATH\Models\CustomerModel.php(54): pg_escape_string('яівмпіваяпівая')
+ 2 APPPATH\Controllers\roles_controllers\administrator\CustomersController.php(48): App\Models\CustomerModel->add_customer('яівмпіваяпівая', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\CustomersController->add_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 01:54:11 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 55.
+ 1 APPPATH\Models\CustomerModel.php(55): pg_escape_string('япмваіяіпвам')
+ 2 APPPATH\Controllers\roles_controllers\administrator\CustomersController.php(48): App\Models\CustomerModel->add_customer('яівмпіваяпівая', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\CustomersController->add_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 01:54:11 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 56.
+ 1 APPPATH\Models\CustomerModel.php(56): pg_escape_string('3кфквуп имфке')
+ 2 APPPATH\Controllers\roles_controllers\administrator\CustomersController.php(48): App\Models\CustomerModel->add_customer('яівмпіваяпівая', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\CustomersController->add_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 01:54:11 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 57.
+ 1 APPPATH\Models\CustomerModel.php(57): pg_escape_string('35445')
+ 2 APPPATH\Controllers\roles_controllers\administrator\CustomersController.php(48): App\Models\CustomerModel->add_customer('яівмпіваяпівая', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\CustomersController->add_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 01:54:11 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 58.
+ 1 APPPATH\Models\CustomerModel.php(58): pg_escape_string('5436')
+ 2 APPPATH\Controllers\roles_controllers\administrator\CustomersController.php(48): App\Models\CustomerModel->add_customer('яівмпіваяпівая', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\CustomersController->add_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 01:54:11 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 59.
+ 1 APPPATH\Models\CustomerModel.php(59): pg_escape_string('иіупкенуикеінпикеіун')
+ 2 APPPATH\Controllers\roles_controllers\administrator\CustomersController.php(48): App\Models\CustomerModel->add_customer('яівмпіваяпівая', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\CustomersController->add_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-31 01:54:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:55:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:55:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:55:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:55:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:55:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:55:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:55:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:55:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:56:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:56:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:56:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-31 01:56:03 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 139.
+ 1 APPPATH\Models\RoomModel.php(139): pg_escape_string('1')
+ 2 APPPATH\Controllers\roles_controllers\manager\RoomsController.php(68): App\Models\RoomModel->get_one('1')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\RoomsController->load_upd_view('1')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\RoomsController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-31 01:56:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:56:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:56:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:56:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-31 01:56:42 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 139.
+ 1 APPPATH\Models\RoomModel.php(139): pg_escape_string('1')
+ 2 APPPATH\Controllers\roles_controllers\manager\RoomsController.php(68): App\Models\RoomModel->get_one('1')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\RoomsController->load_upd_view('1')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\RoomsController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-31 01:56:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:56:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:56:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:57:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-31 01:57:02 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 139.
+ 1 APPPATH\Models\RoomModel.php(139): pg_escape_string('1')
+ 2 APPPATH\Controllers\roles_controllers\manager\RoomsController.php(68): App\Models\RoomModel->get_one('1')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\RoomsController->load_upd_view('1')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\RoomsController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-31 01:57:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:57:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:57:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:57:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-31 01:57:37 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 96.
+ 1 APPPATH\Models\RoomModel.php(96): pg_escape_string('Люкс')
+ 2 APPPATH\Controllers\roles_controllers\manager\RoomsController.php(58): App\Models\RoomModel->getInfo('', 'Люкс', '', '', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\RoomsController->info()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\RoomsController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-31 01:57:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:57:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:58:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:58:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:58:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:58:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 01:59:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:00:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-31 02:00:00 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 68.
+ 1 APPPATH\Models\CustomerModel.php(68): pg_escape_string('олег')
+ 2 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 02:00:00 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 69.
+ 1 APPPATH\Models\CustomerModel.php(69): pg_escape_string('япмваіяіпвам')
+ 2 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 02:00:00 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 70.
+ 1 APPPATH\Models\CustomerModel.php(70): pg_escape_string('3кфквуп имфке')
+ 2 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 02:00:00 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 71.
+ 1 APPPATH\Models\CustomerModel.php(71): pg_escape_string('35445')
+ 2 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 02:00:00 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 72.
+ 1 APPPATH\Models\CustomerModel.php(72): pg_escape_string('5436')
+ 2 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 02:00:00 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 73.
+ 1 APPPATH\Models\CustomerModel.php(73): pg_escape_string('иіупкенуикеінпикеіун')
+ 2 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 02:00:00 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 74.
+ 1 APPPATH\Models\CustomerModel.php(74): pg_escape_string('')
+ 2 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-31 02:00:00 --> ErrorException: pg_query(): Query failed: ПОМИЛКА:  неприпустимий синтаксис для типу smallint: &quot;&quot;
+LINE 1: ...5436', &quot;pseudonym&quot; = 'иіупкенуикеінпикеіун', &quot;discount&quot; = ''
+                                                                     ^ in D:\curs_server\web_p\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\curs_server\\...', 187)
+#1 D:\curs_server\web_p\system\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'UPDATE "custome...')
+#2 D:\curs_server\web_p\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "custome...')
+#3 D:\curs_server\web_p\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "custome...')
+#4 D:\curs_server\web_p\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE "custome...', Array, false)
+#5 D:\curs_server\web_p\app\Models\CustomerModel.php(67): CodeIgniter\Database\BaseBuilder->update(Array)
+#6 D:\curs_server\web_p\app\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, '\xD0\xBE\xD0\xBB\xD0\xB5\xD0\xB3', '\xD1\x8F\xD0\xBF\xD0\xBC\xD0\xB2\xD0\xB0\xD1\x96\xD1\x8F\xD1...', '3\xD0\xBA\xD1\x84\xD0\xBA\xD0\xB2\xD1\x83\xD0\xBF \xD0...', '35445', '5436', '\xD0\xB8\xD1\x96\xD1\x83\xD0\xBF\xD0\xBA\xD0\xB5\xD0\xBD\xD1...', '')
+#7 D:\curs_server\web_p\system\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+#8 D:\curs_server\web_p\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+#9 D:\curs_server\web_p\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\curs_server\web_p\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-12-31 02:00:00 --> pg_query(): Query failed: ПОМИЛКА:  неприпустимий синтаксис для типу smallint: &quot;&quot;
+LINE 1: ...5436', &quot;pseudonym&quot; = 'иіупкенуикеінпикеіун', &quot;discount&quot; = ''
+                                                                     ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE "customer" SET "first_name" = :first_name:, "middle_name" = :middle_name:, "last_name" = :last_name:, "phone_number" = :phone_number:, "document_num" = :document_num:, "pseudonym" = :pseudonym:, "discount" = :discount:
+WHERE "customer"."id" = :customer.id:', [...], false)
+ 2 APPPATH\Models\CustomerModel.php(67): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-31 02:00:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-31 02:00:02 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 68.
+ 1 APPPATH\Models\CustomerModel.php(68): pg_escape_string('олег')
+ 2 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 02:00:02 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 69.
+ 1 APPPATH\Models\CustomerModel.php(69): pg_escape_string('япмваіяіпвам')
+ 2 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 02:00:02 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 70.
+ 1 APPPATH\Models\CustomerModel.php(70): pg_escape_string('3кфквуп имфке')
+ 2 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 02:00:02 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 71.
+ 1 APPPATH\Models\CustomerModel.php(71): pg_escape_string('35445')
+ 2 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 02:00:02 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 72.
+ 1 APPPATH\Models\CustomerModel.php(72): pg_escape_string('5436')
+ 2 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 02:00:02 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 73.
+ 1 APPPATH\Models\CustomerModel.php(73): pg_escape_string('иіупкенуикеінпикеіун')
+ 2 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 02:00:02 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 74.
+ 1 APPPATH\Models\CustomerModel.php(74): pg_escape_string('')
+ 2 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-31 02:00:02 --> ErrorException: pg_query(): Query failed: ПОМИЛКА:  неприпустимий синтаксис для типу smallint: &quot;&quot;
+LINE 1: ...5436', &quot;pseudonym&quot; = 'иіупкенуикеінпикеіун', &quot;discount&quot; = ''
+                                                                     ^ in D:\curs_server\web_p\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\curs_server\\...', 187)
+#1 D:\curs_server\web_p\system\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'UPDATE "custome...')
+#2 D:\curs_server\web_p\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "custome...')
+#3 D:\curs_server\web_p\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "custome...')
+#4 D:\curs_server\web_p\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE "custome...', Array, false)
+#5 D:\curs_server\web_p\app\Models\CustomerModel.php(67): CodeIgniter\Database\BaseBuilder->update(Array)
+#6 D:\curs_server\web_p\app\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, '\xD0\xBE\xD0\xBB\xD0\xB5\xD0\xB3', '\xD1\x8F\xD0\xBF\xD0\xBC\xD0\xB2\xD0\xB0\xD1\x96\xD1\x8F\xD1...', '3\xD0\xBA\xD1\x84\xD0\xBA\xD0\xB2\xD1\x83\xD0\xBF \xD0...', '35445', '5436', '\xD0\xB8\xD1\x96\xD1\x83\xD0\xBF\xD0\xBA\xD0\xB5\xD0\xBD\xD1...', '')
+#7 D:\curs_server\web_p\system\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+#8 D:\curs_server\web_p\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+#9 D:\curs_server\web_p\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\curs_server\web_p\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-12-31 02:00:02 --> pg_query(): Query failed: ПОМИЛКА:  неприпустимий синтаксис для типу smallint: &quot;&quot;
+LINE 1: ...5436', &quot;pseudonym&quot; = 'иіупкенуикеінпикеіун', &quot;discount&quot; = ''
+                                                                     ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE "customer" SET "first_name" = :first_name:, "middle_name" = :middle_name:, "last_name" = :last_name:, "phone_number" = :phone_number:, "document_num" = :document_num:, "pseudonym" = :pseudonym:, "discount" = :discount:
+WHERE "customer"."id" = :customer.id:', [...], false)
+ 2 APPPATH\Models\CustomerModel.php(67): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-31 02:00:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-31 02:00:02 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 68.
+ 1 APPPATH\Models\CustomerModel.php(68): pg_escape_string('олег')
+ 2 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 02:00:02 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 69.
+ 1 APPPATH\Models\CustomerModel.php(69): pg_escape_string('япмваіяіпвам')
+ 2 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 02:00:02 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 70.
+ 1 APPPATH\Models\CustomerModel.php(70): pg_escape_string('3кфквуп имфке')
+ 2 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 02:00:02 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 71.
+ 1 APPPATH\Models\CustomerModel.php(71): pg_escape_string('35445')
+ 2 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 02:00:02 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 72.
+ 1 APPPATH\Models\CustomerModel.php(72): pg_escape_string('5436')
+ 2 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 02:00:02 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 73.
+ 1 APPPATH\Models\CustomerModel.php(73): pg_escape_string('иіупкенуикеінпикеіун')
+ 2 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 02:00:02 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 74.
+ 1 APPPATH\Models\CustomerModel.php(74): pg_escape_string('')
+ 2 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-31 02:00:03 --> ErrorException: pg_query(): Query failed: ПОМИЛКА:  неприпустимий синтаксис для типу smallint: &quot;&quot;
+LINE 1: ...5436', &quot;pseudonym&quot; = 'иіупкенуикеінпикеіун', &quot;discount&quot; = ''
+                                                                     ^ in D:\curs_server\web_p\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\curs_server\\...', 187)
+#1 D:\curs_server\web_p\system\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'UPDATE "custome...')
+#2 D:\curs_server\web_p\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "custome...')
+#3 D:\curs_server\web_p\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "custome...')
+#4 D:\curs_server\web_p\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE "custome...', Array, false)
+#5 D:\curs_server\web_p\app\Models\CustomerModel.php(67): CodeIgniter\Database\BaseBuilder->update(Array)
+#6 D:\curs_server\web_p\app\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, '\xD0\xBE\xD0\xBB\xD0\xB5\xD0\xB3', '\xD1\x8F\xD0\xBF\xD0\xBC\xD0\xB2\xD0\xB0\xD1\x96\xD1\x8F\xD1...', '3\xD0\xBA\xD1\x84\xD0\xBA\xD0\xB2\xD1\x83\xD0\xBF \xD0...', '35445', '5436', '\xD0\xB8\xD1\x96\xD1\x83\xD0\xBF\xD0\xBA\xD0\xB5\xD0\xBD\xD1...', '')
+#7 D:\curs_server\web_p\system\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+#8 D:\curs_server\web_p\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+#9 D:\curs_server\web_p\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\curs_server\web_p\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-12-31 02:00:03 --> pg_query(): Query failed: ПОМИЛКА:  неприпустимий синтаксис для типу smallint: &quot;&quot;
+LINE 1: ...5436', &quot;pseudonym&quot; = 'иіупкенуикеінпикеіун', &quot;discount&quot; = ''
+                                                                     ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE "customer" SET "first_name" = :first_name:, "middle_name" = :middle_name:, "last_name" = :last_name:, "phone_number" = :phone_number:, "document_num" = :document_num:, "pseudonym" = :pseudonym:, "discount" = :discount:
+WHERE "customer"."id" = :customer.id:', [...], false)
+ 2 APPPATH\Models\CustomerModel.php(67): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-31 02:00:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-31 02:00:03 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 68.
+ 1 APPPATH\Models\CustomerModel.php(68): pg_escape_string('олег')
+ 2 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 02:00:03 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 69.
+ 1 APPPATH\Models\CustomerModel.php(69): pg_escape_string('япмваіяіпвам')
+ 2 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 02:00:03 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 70.
+ 1 APPPATH\Models\CustomerModel.php(70): pg_escape_string('3кфквуп имфке')
+ 2 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 02:00:03 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 71.
+ 1 APPPATH\Models\CustomerModel.php(71): pg_escape_string('35445')
+ 2 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 02:00:03 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 72.
+ 1 APPPATH\Models\CustomerModel.php(72): pg_escape_string('5436')
+ 2 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 02:00:03 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 73.
+ 1 APPPATH\Models\CustomerModel.php(73): pg_escape_string('иіупкенуикеінпикеіун')
+ 2 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 02:00:03 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 74.
+ 1 APPPATH\Models\CustomerModel.php(74): pg_escape_string('')
+ 2 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-31 02:00:03 --> ErrorException: pg_query(): Query failed: ПОМИЛКА:  неприпустимий синтаксис для типу smallint: &quot;&quot;
+LINE 1: ...5436', &quot;pseudonym&quot; = 'иіупкенуикеінпикеіун', &quot;discount&quot; = ''
+                                                                     ^ in D:\curs_server\web_p\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\curs_server\\...', 187)
+#1 D:\curs_server\web_p\system\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'UPDATE "custome...')
+#2 D:\curs_server\web_p\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "custome...')
+#3 D:\curs_server\web_p\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "custome...')
+#4 D:\curs_server\web_p\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE "custome...', Array, false)
+#5 D:\curs_server\web_p\app\Models\CustomerModel.php(67): CodeIgniter\Database\BaseBuilder->update(Array)
+#6 D:\curs_server\web_p\app\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, '\xD0\xBE\xD0\xBB\xD0\xB5\xD0\xB3', '\xD1\x8F\xD0\xBF\xD0\xBC\xD0\xB2\xD0\xB0\xD1\x96\xD1\x8F\xD1...', '3\xD0\xBA\xD1\x84\xD0\xBA\xD0\xB2\xD1\x83\xD0\xBF \xD0...', '35445', '5436', '\xD0\xB8\xD1\x96\xD1\x83\xD0\xBF\xD0\xBA\xD0\xB5\xD0\xBD\xD1...', '')
+#7 D:\curs_server\web_p\system\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+#8 D:\curs_server\web_p\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+#9 D:\curs_server\web_p\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\curs_server\web_p\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-12-31 02:00:03 --> pg_query(): Query failed: ПОМИЛКА:  неприпустимий синтаксис для типу smallint: &quot;&quot;
+LINE 1: ...5436', &quot;pseudonym&quot; = 'иіупкенуикеінпикеіун', &quot;discount&quot; = ''
+                                                                     ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE "customer" SET "first_name" = :first_name:, "middle_name" = :middle_name:, "last_name" = :last_name:, "phone_number" = :phone_number:, "document_num" = :document_num:, "pseudonym" = :pseudonym:, "discount" = :discount:
+WHERE "customer"."id" = :customer.id:', [...], false)
+ 2 APPPATH\Models\CustomerModel.php(67): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-31 02:00:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-31 02:00:08 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 68.
+ 1 APPPATH\Models\CustomerModel.php(68): pg_escape_string('олег')
+ 2 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 02:00:08 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 69.
+ 1 APPPATH\Models\CustomerModel.php(69): pg_escape_string('япмваіяіпвам')
+ 2 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 02:00:08 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 70.
+ 1 APPPATH\Models\CustomerModel.php(70): pg_escape_string('3кфквуп имфке')
+ 2 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 02:00:08 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 71.
+ 1 APPPATH\Models\CustomerModel.php(71): pg_escape_string('35445')
+ 2 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 02:00:08 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 72.
+ 1 APPPATH\Models\CustomerModel.php(72): pg_escape_string('5436')
+ 2 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 02:00:08 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 73.
+ 1 APPPATH\Models\CustomerModel.php(73): pg_escape_string('иіупкенуикеінпикеіун')
+ 2 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 02:00:08 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 74.
+ 1 APPPATH\Models\CustomerModel.php(74): pg_escape_string('')
+ 2 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-31 02:00:08 --> ErrorException: pg_query(): Query failed: ПОМИЛКА:  неприпустимий синтаксис для типу smallint: &quot;&quot;
+LINE 1: ...5436', &quot;pseudonym&quot; = 'иіупкенуикеінпикеіун', &quot;discount&quot; = ''
+                                                                     ^ in D:\curs_server\web_p\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\curs_server\\...', 187)
+#1 D:\curs_server\web_p\system\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'UPDATE "custome...')
+#2 D:\curs_server\web_p\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "custome...')
+#3 D:\curs_server\web_p\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "custome...')
+#4 D:\curs_server\web_p\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE "custome...', Array, false)
+#5 D:\curs_server\web_p\app\Models\CustomerModel.php(67): CodeIgniter\Database\BaseBuilder->update(Array)
+#6 D:\curs_server\web_p\app\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, '\xD0\xBE\xD0\xBB\xD0\xB5\xD0\xB3', '\xD1\x8F\xD0\xBF\xD0\xBC\xD0\xB2\xD0\xB0\xD1\x96\xD1\x8F\xD1...', '3\xD0\xBA\xD1\x84\xD0\xBA\xD0\xB2\xD1\x83\xD0\xBF \xD0...', '35445', '5436', '\xD0\xB8\xD1\x96\xD1\x83\xD0\xBF\xD0\xBA\xD0\xB5\xD0\xBD\xD1...', '')
+#7 D:\curs_server\web_p\system\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+#8 D:\curs_server\web_p\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+#9 D:\curs_server\web_p\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\curs_server\web_p\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-12-31 02:00:08 --> pg_query(): Query failed: ПОМИЛКА:  неприпустимий синтаксис для типу smallint: &quot;&quot;
+LINE 1: ...5436', &quot;pseudonym&quot; = 'иіупкенуикеінпикеіун', &quot;discount&quot; = ''
+                                                                     ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE "customer" SET "first_name" = :first_name:, "middle_name" = :middle_name:, "last_name" = :last_name:, "phone_number" = :phone_number:, "document_num" = :document_num:, "pseudonym" = :pseudonym:, "discount" = :discount:
+WHERE "customer"."id" = :customer.id:', [...], false)
+ 2 APPPATH\Models\CustomerModel.php(67): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-31 02:00:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-31 02:00:08 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 68.
+ 1 APPPATH\Models\CustomerModel.php(68): pg_escape_string('олег')
+ 2 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 02:00:08 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 69.
+ 1 APPPATH\Models\CustomerModel.php(69): pg_escape_string('япмваіяіпвам')
+ 2 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 02:00:08 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 70.
+ 1 APPPATH\Models\CustomerModel.php(70): pg_escape_string('3кфквуп имфке')
+ 2 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 02:00:08 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 71.
+ 1 APPPATH\Models\CustomerModel.php(71): pg_escape_string('35445')
+ 2 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 02:00:08 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 72.
+ 1 APPPATH\Models\CustomerModel.php(72): pg_escape_string('5436')
+ 2 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 02:00:08 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 73.
+ 1 APPPATH\Models\CustomerModel.php(73): pg_escape_string('иіупкенуикеінпикеіун')
+ 2 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 02:00:08 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 74.
+ 1 APPPATH\Models\CustomerModel.php(74): pg_escape_string('')
+ 2 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-31 02:00:08 --> ErrorException: pg_query(): Query failed: ПОМИЛКА:  неприпустимий синтаксис для типу smallint: &quot;&quot;
+LINE 1: ...5436', &quot;pseudonym&quot; = 'иіупкенуикеінпикеіун', &quot;discount&quot; = ''
+                                                                     ^ in D:\curs_server\web_p\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\curs_server\\...', 187)
+#1 D:\curs_server\web_p\system\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'UPDATE "custome...')
+#2 D:\curs_server\web_p\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "custome...')
+#3 D:\curs_server\web_p\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "custome...')
+#4 D:\curs_server\web_p\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE "custome...', Array, false)
+#5 D:\curs_server\web_p\app\Models\CustomerModel.php(67): CodeIgniter\Database\BaseBuilder->update(Array)
+#6 D:\curs_server\web_p\app\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, '\xD0\xBE\xD0\xBB\xD0\xB5\xD0\xB3', '\xD1\x8F\xD0\xBF\xD0\xBC\xD0\xB2\xD0\xB0\xD1\x96\xD1\x8F\xD1...', '3\xD0\xBA\xD1\x84\xD0\xBA\xD0\xB2\xD1\x83\xD0\xBF \xD0...', '35445', '5436', '\xD0\xB8\xD1\x96\xD1\x83\xD0\xBF\xD0\xBA\xD0\xB5\xD0\xBD\xD1...', '')
+#7 D:\curs_server\web_p\system\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+#8 D:\curs_server\web_p\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+#9 D:\curs_server\web_p\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\curs_server\web_p\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-12-31 02:00:08 --> pg_query(): Query failed: ПОМИЛКА:  неприпустимий синтаксис для типу smallint: &quot;&quot;
+LINE 1: ...5436', &quot;pseudonym&quot; = 'иіупкенуикеінпикеіун', &quot;discount&quot; = ''
+                                                                     ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE "customer" SET "first_name" = :first_name:, "middle_name" = :middle_name:, "last_name" = :last_name:, "phone_number" = :phone_number:, "document_num" = :document_num:, "pseudonym" = :pseudonym:, "discount" = :discount:
+WHERE "customer"."id" = :customer.id:', [...], false)
+ 2 APPPATH\Models\CustomerModel.php(67): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-31 02:00:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-31 02:00:09 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 68.
+ 1 APPPATH\Models\CustomerModel.php(68): pg_escape_string('олег')
+ 2 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 02:00:09 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 69.
+ 1 APPPATH\Models\CustomerModel.php(69): pg_escape_string('япмваіяіпвам')
+ 2 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 02:00:09 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 70.
+ 1 APPPATH\Models\CustomerModel.php(70): pg_escape_string('3кфквуп имфке')
+ 2 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 02:00:09 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 71.
+ 1 APPPATH\Models\CustomerModel.php(71): pg_escape_string('35445')
+ 2 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 02:00:09 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 72.
+ 1 APPPATH\Models\CustomerModel.php(72): pg_escape_string('5436')
+ 2 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 02:00:09 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 73.
+ 1 APPPATH\Models\CustomerModel.php(73): pg_escape_string('иіупкенуикеінпикеіун')
+ 2 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 02:00:09 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 74.
+ 1 APPPATH\Models\CustomerModel.php(74): pg_escape_string('')
+ 2 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-31 02:00:09 --> ErrorException: pg_query(): Query failed: ПОМИЛКА:  неприпустимий синтаксис для типу smallint: &quot;&quot;
+LINE 1: ...5436', &quot;pseudonym&quot; = 'иіупкенуикеінпикеіун', &quot;discount&quot; = ''
+                                                                     ^ in D:\curs_server\web_p\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\curs_server\\...', 187)
+#1 D:\curs_server\web_p\system\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'UPDATE "custome...')
+#2 D:\curs_server\web_p\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "custome...')
+#3 D:\curs_server\web_p\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "custome...')
+#4 D:\curs_server\web_p\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE "custome...', Array, false)
+#5 D:\curs_server\web_p\app\Models\CustomerModel.php(67): CodeIgniter\Database\BaseBuilder->update(Array)
+#6 D:\curs_server\web_p\app\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, '\xD0\xBE\xD0\xBB\xD0\xB5\xD0\xB3', '\xD1\x8F\xD0\xBF\xD0\xBC\xD0\xB2\xD0\xB0\xD1\x96\xD1\x8F\xD1...', '3\xD0\xBA\xD1\x84\xD0\xBA\xD0\xB2\xD1\x83\xD0\xBF \xD0...', '35445', '5436', '\xD0\xB8\xD1\x96\xD1\x83\xD0\xBF\xD0\xBA\xD0\xB5\xD0\xBD\xD1...', '')
+#7 D:\curs_server\web_p\system\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+#8 D:\curs_server\web_p\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+#9 D:\curs_server\web_p\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\curs_server\web_p\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-12-31 02:00:09 --> pg_query(): Query failed: ПОМИЛКА:  неприпустимий синтаксис для типу smallint: &quot;&quot;
+LINE 1: ...5436', &quot;pseudonym&quot; = 'иіупкенуикеінпикеіун', &quot;discount&quot; = ''
+                                                                     ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE "customer" SET "first_name" = :first_name:, "middle_name" = :middle_name:, "last_name" = :last_name:, "phone_number" = :phone_number:, "document_num" = :document_num:, "pseudonym" = :pseudonym:, "discount" = :discount:
+WHERE "customer"."id" = :customer.id:', [...], false)
+ 2 APPPATH\Models\CustomerModel.php(67): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-31 02:00:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-31 02:00:11 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 68.
+ 1 APPPATH\Models\CustomerModel.php(68): pg_escape_string('олег')
+ 2 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 02:00:11 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 69.
+ 1 APPPATH\Models\CustomerModel.php(69): pg_escape_string('япмваіяіпвам')
+ 2 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 02:00:11 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 70.
+ 1 APPPATH\Models\CustomerModel.php(70): pg_escape_string('3кфквуп имфке')
+ 2 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 02:00:11 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 71.
+ 1 APPPATH\Models\CustomerModel.php(71): pg_escape_string('35445')
+ 2 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 02:00:11 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 72.
+ 1 APPPATH\Models\CustomerModel.php(72): pg_escape_string('5436')
+ 2 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 02:00:11 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 73.
+ 1 APPPATH\Models\CustomerModel.php(73): pg_escape_string('иіупкенуикеінпикеіун')
+ 2 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 02:00:11 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 74.
+ 1 APPPATH\Models\CustomerModel.php(74): pg_escape_string('')
+ 2 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-31 02:00:11 --> ErrorException: pg_query(): Query failed: ПОМИЛКА:  неприпустимий синтаксис для типу smallint: &quot;&quot;
+LINE 1: ...5436', &quot;pseudonym&quot; = 'иіупкенуикеінпикеіун', &quot;discount&quot; = ''
+                                                                     ^ in D:\curs_server\web_p\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\curs_server\\...', 187)
+#1 D:\curs_server\web_p\system\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'UPDATE "custome...')
+#2 D:\curs_server\web_p\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "custome...')
+#3 D:\curs_server\web_p\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "custome...')
+#4 D:\curs_server\web_p\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE "custome...', Array, false)
+#5 D:\curs_server\web_p\app\Models\CustomerModel.php(67): CodeIgniter\Database\BaseBuilder->update(Array)
+#6 D:\curs_server\web_p\app\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, '\xD0\xBE\xD0\xBB\xD0\xB5\xD0\xB3', '\xD1\x8F\xD0\xBF\xD0\xBC\xD0\xB2\xD0\xB0\xD1\x96\xD1\x8F\xD1...', '3\xD0\xBA\xD1\x84\xD0\xBA\xD0\xB2\xD1\x83\xD0\xBF \xD0...', '35445', '5436', '\xD0\xB8\xD1\x96\xD1\x83\xD0\xBF\xD0\xBA\xD0\xB5\xD0\xBD\xD1...', '')
+#7 D:\curs_server\web_p\system\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+#8 D:\curs_server\web_p\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+#9 D:\curs_server\web_p\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\curs_server\web_p\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-12-31 02:00:11 --> pg_query(): Query failed: ПОМИЛКА:  неприпустимий синтаксис для типу smallint: &quot;&quot;
+LINE 1: ...5436', &quot;pseudonym&quot; = 'иіупкенуикеінпикеіун', &quot;discount&quot; = ''
+                                                                     ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE "customer" SET "first_name" = :first_name:, "middle_name" = :middle_name:, "last_name" = :last_name:, "phone_number" = :phone_number:, "document_num" = :document_num:, "pseudonym" = :pseudonym:, "discount" = :discount:
+WHERE "customer"."id" = :customer.id:', [...], false)
+ 2 APPPATH\Models\CustomerModel.php(67): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-31 02:00:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-31 02:00:41 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 68.
+ 1 APPPATH\Models\CustomerModel.php(68): pg_escape_string('олег')
+ 2 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '0')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 02:00:41 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 69.
+ 1 APPPATH\Models\CustomerModel.php(69): pg_escape_string('япмваіяіпвам')
+ 2 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '0')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 02:00:41 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 70.
+ 1 APPPATH\Models\CustomerModel.php(70): pg_escape_string('3кфквуп имфке')
+ 2 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '0')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 02:00:41 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 71.
+ 1 APPPATH\Models\CustomerModel.php(71): pg_escape_string('35445')
+ 2 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '0')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 02:00:41 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 72.
+ 1 APPPATH\Models\CustomerModel.php(72): pg_escape_string('5436')
+ 2 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '0')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 02:00:41 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 73.
+ 1 APPPATH\Models\CustomerModel.php(73): pg_escape_string('иіупкенуикеінпикеіун')
+ 2 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '0')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-31 02:00:41 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\CustomerModel.php on line 74.
+ 1 APPPATH\Models\CustomerModel.php(74): pg_escape_string('0')
+ 2 APPPATH\Controllers\roles_controllers\manager\CustomersController.php(77): App\Models\CustomerModel->update_customer(13, 'олег', 'япмваіяіпвам', '3кфквуп имфке', '35445', '5436', 'иіупкенуикеінпикеіун', '0')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\CustomersController->update_customer()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\CustomersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-31 02:00:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:00:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:01:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:01:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:01:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:01:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:01:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:01:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:04:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:04:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:04:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:05:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:05:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:05:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:05:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:07:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:07:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:07:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:07:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:07:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:07:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:10:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:10:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:10:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-31 02:10:42 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\UserModel.php on line 41.
+ 1 APPPATH\Models\UserModel.php(41): pg_escape_string('3')
+ 2 APPPATH\Controllers\roles_controllers\manager\WorkersController.php(42): App\Models\UserModel->search_worker('', '', '', '', '3')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\manager\WorkersController->search_worker()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\manager\WorkersController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-31 02:10:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:10:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:10:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:10:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:10:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:10:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:10:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-31 02:10:57 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\UserModel.php on line 41.
+ 1 APPPATH\Models\UserModel.php(41): pg_escape_string('3')
+ 2 APPPATH\Controllers\roles_controllers\administrator\OrderCreateController.php(26): App\Models\UserModel->search_worker('', '', '', '', 3)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\OrderCreateController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\OrderCreateController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-31 02:11:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-31 02:11:28 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\RoomModel.php on line 94.
+ 1 APPPATH\Models\RoomModel.php(94): pg_escape_string('102')
+ 2 APPPATH\Controllers\roles_controllers\administrator\OrderCreateController.php(40): App\Models\RoomModel->getInfo('102', 0, null, null, null)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\OrderCreateController->create_order()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\OrderCreateController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-31 02:11:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:12:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:12:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:12:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:12:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:12:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:12:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:12:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:13:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:13:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:13:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:13:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:13:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:14:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:14:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:14:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:14:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-31 02:14:24 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\UserModel.php on line 41.
+ 1 APPPATH\Models\UserModel.php(41): pg_escape_string('3')
+ 2 APPPATH\Controllers\roles_controllers\administrator\OrderCreateController.php(26): App\Models\UserModel->search_worker('', '', '', '', 3)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\OrderCreateController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\OrderCreateController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-31 02:14:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:14:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:14:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:14:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-31 02:14:42 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\UserModel.php on line 41.
+ 1 APPPATH\Models\UserModel.php(41): pg_escape_string('3')
+ 2 APPPATH\Controllers\roles_controllers\administrator\OrderCreateController.php(26): App\Models\UserModel->search_worker('', '', '', '', 3)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\OrderCreateController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\OrderCreateController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-31 02:14:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:14:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:15:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-31 02:15:02 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\UserModel.php on line 41.
+ 1 APPPATH\Models\UserModel.php(41): pg_escape_string('3')
+ 2 APPPATH\Controllers\roles_controllers\administrator\OrderCreateController.php(26): App\Models\UserModel->search_worker('', '', '', '', 3)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\OrderCreateController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\OrderCreateController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-31 02:15:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-31 02:15:15 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\UserModel.php on line 41.
+ 1 APPPATH\Models\UserModel.php(41): pg_escape_string('3')
+ 2 APPPATH\Controllers\roles_controllers\administrator\OrderCreateController.php(26): App\Models\UserModel->search_worker('', '', '', '', 3)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\OrderCreateController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\OrderCreateController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-31 02:15:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:15:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:24:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:25:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:25:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:25:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:25:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:25:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:30:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:30:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:31:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:31:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:31:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:31:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:33:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-31 02:33:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-31 02:33:53 --> [DEPRECATED] pg_escape_string(): Automatic fetching of PostgreSQL connection is deprecated in APPPATH\Models\UserModel.php on line 41.
+ 1 APPPATH\Models\UserModel.php(41): pg_escape_string('3')
+ 2 APPPATH\Controllers\roles_controllers\administrator\OrderCreateController.php(26): App\Models\UserModel->search_worker('', '', '', '', 3)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\roles_controllers\administrator\OrderCreateController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\roles_controllers\administrator\OrderCreateController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
